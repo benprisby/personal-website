@@ -1,0 +1,323 @@
+baseURL: https://benprisby.com
+languageCode: en-us
+title: Ben Prisby
+theme: hugo-profile
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - RSS
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 5
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: Ben Prisby
+  description: Software engineer, musician, fitness enthusiast, etc.
+  favicon: /favicon.png
+
+  useBootstrapCDN: true
+  mathjax: false
+  animate: true
+
+  theme:
+    defaultTheme: dark
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  color:
+    textColor: "#2c3e50"
+    secondaryTextColor: "#5a6c7d"
+    textLinkColor: "#1e3a8a"  # Deeper blue
+    backgroundColor: "#ffffff"
+    secondaryBackgroundColor: "#f8fafc"  # Slightly cooler white
+    primaryColor: "#1e40af"  # Rich cobalt blue
+    secondaryColor: "#e2e8f0"  # Cool gray
+
+    darkmode:
+      textColor: "#f1f5f9"
+      secondaryTextColor: "#cbd5e1"
+      textLinkColor: "#60a5fa"  # Bright blue for dark mode
+      backgroundColor: "#0f172a"  # Deep navy instead of pure black
+      secondaryBackgroundColor: "#1e293b"  # Slate blue-gray
+      primaryColor: "#3b82f6"  # Vibrant blue
+      secondaryColor: "#334155"
+
+  navbar:
+    align: ms-auto
+    brandName: Ben Prisby
+    disableSearch: false
+    searchPlaceholder: Search...
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: Hey there! I'm
+    title: Ben Prisby
+    subtitle: Software Engineer
+    content: |-
+      I design software that makes complex systems feel effortless. When I'm not architecting device platforms,
+      designing user interfaces, or tinkering with my home lab, you'll find me exploring guitar riffs or crafting the
+      perfect cocktail for friends.
+    image: /images/profile.jpg
+    bottomImage:
+      enable: true
+    roundImage: false
+    button:
+      enable: true
+      name: Resume
+      url: /resume.pdf
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/benprisby
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/benprisby
+        - icon: fas fa-envelope
+          url: mailto:ben@benprisby.com
+
+  about:
+    enable: true
+    title: About Me
+    image: /images/about.jpg
+    content: |-
+      Welcome! I designed this site to showcase both my technical and non-technical sides, which more often than not
+      intertwine.
+
+      I've spent the last six years at Desktop Metal building software that powers industrial 3D printers, enabling mass
+      manufacturing of everything from automotive parts to medical devices. What fascinates me most is the challenge of
+      making complex systems feel simple and intuitive.
+
+      During my time at DM, my proudest technical achievement is the Maxwell platform: the unified software foundation
+      that lets our small team support an expanding, diverse product portfolio without sacrificing quality (or sanity).
+      I also have a niche for creating embedded user interfaces that make our devices easy to use.
+
+      Outside of work, I'm constantly experimenting. My home lab is where I prototype ideas and stay current with
+      technologies that pique my interest. I've been playing guitar since I was nine and it continues to be my favorite
+      creative outlet, where I explore patterns and emotions through songwriting. And I've developed a passion for
+      mixology; there's something deeply satisfying about balancing flavors and perfecting techniques. When I'm not
+      crafting cocktails or diving into code, my wife and I are usually training our puppy Luna.
+
+      Whether I'm architecting software, crafting a cocktail, or working out a chord progression, I'm drawn to the
+      intersection of technical precision and creative expression. The best solutions often come from understanding both
+      the system and the human experience within it.
+    skills:
+      enable: true
+      title: "Technologies I work with:"
+      items:
+        - C++ & Qt QML
+        - Python & Flask
+        - Embedded Linux & Yocto
+        - WebAssembly & Modern Web
+        - Docker & Orchestration
+        - MQTT & IoT Protocols
+        - AWS & Cloud Infrastructure
+        - CI/CD & DevOps
+
+  experience:
+      enable: true
+      items:
+        - job: Software Engineer → Principal Software Engineer
+          company: Desktop Metal
+          companyUrl: https://www.desktopmetal.com
+          date: Jan 2019 - Present
+          info:
+            enable: false
+          content: |-
+            **Principal Software Engineer (May 2023 - Present)**
+
+            I lead the development of Maxwell, the unified software platform that serves as the foundation for an
+            expanding device portfolio. The platform's modular architecture enables our small team to efficiently scale
+            across multiple product lines through service-oriented design. I serve as the primary technical advisor for
+            device software strategy, leading cross-functional architecture decisions and mentoring the team.
+
+            **Senior Software Engineer (Mar 2021 - May 2023)**
+
+            This role marked my transition into device software architecture leadership. A key achievement was
+            developing Remote Assist, a comprehensive support system that enabled remote troubleshooting capabilities,
+            significantly reducing on-site service requirements and improving customer support efficiency. I expanded my
+            technical scope across the full stack, implementing Qt-based user interfaces, Python backend services, and
+            CI/CD pipeline improvements while collaborating with hardware, design, and support teams.
+
+            **Embedded Software Engineer (Jan 2019 - Mar 2021)**
+
+            Beginning my full-time career, I specialized in Qt application development and embedded Linux systems. I was
+            entrusted with customer-facing interface design decisions, which developed my understanding of user
+            experience considerations for high-value industrial equipment. During this period, I contributed to the
+            architectural evolution from monolithic to modular system design, establishing foundational patterns that
+            would later influence the Maxwell platform development.
+
+
+        - job: Embedded Software Co-op
+          company: Desktop Metal Co-op
+          companyUrl: https://www.desktopmetal.com
+          date: Jul 2018 - Jan 2019
+          info:
+            enable: false
+          content: |-
+            *Designed and implemented Studio Printer support systems while also overhauling firmware and QA*
+
+            This experience provided my first exposure to industrial 3D printing technology and established the
+            foundation for my subsequent full-time roles at Desktop Metal by completing my second Northeastern co-op
+            there. I began by revamping firmware QA test suites and quickly progressed to implementing and maintaining
+            new code in Studio technician tools. I also gained lower-level firmware development skills in an extensive
+            toolchain migration.
+
+            As I completed my bachelor's degree and this co-op, I gained more valuable software engineering experience
+            in a fast-paced startup, picking up many technical and leadership skills as I prepared for full-time.
+
+        - job: Software Engineering Co-op
+          company: NxStage Medical
+          companyUrl: https://www.nxstage.com
+          date: Jul 2017 - Jan 2018
+          info:
+            enable: false
+          content: |-
+            *Developed embedded medical device software for home hemodialysis systems through full development
+            lifecycle*
+
+            In my first full-time software engineering role as part of the Northeastern co-op program, I learned
+            foundations of sound software design, development practices, and tooling. It further emphasized the
+            importance of reliability and safety in life-critical software design, where system failures are not
+            acceptable.
+
+            This experience opened my eyes to real-world embedded software engineering and validated my career path as I
+            continued earning my bachelor's degree.
+
+  education:
+    enable: true
+    items:
+      - title: Bachelor of Science in Computer Engineering
+        school:
+          name: Northeastern University
+          url: https://www.northeastern.edu
+        date: 2015 - 2019
+        GPA: 3.94/4.0
+        content: |-
+          Summa Cum Laude graduation, 2018 President's Award (top ten students by GPA), Academic Merit Scholarship
+          recipient, Alpha Kappa Sigma (AKΣ) Fraternity (Philanthropy Chair).
+
+          Focused on embedded systems, software engineering, and computer architecture through both coursework and co-op
+          experiences.
+
+      - title: High School Diploma
+        school:
+          name: Central Catholic High School
+          url: https://www.centralcatholic.net
+        date: 2011 - 2015
+        GPA: 3.96/4.0
+        content: |-
+          Academic Scholar (highest GPA in class, senior year), National Honor Society member.
+
+          Founded Technology Club and participated in SEMI High Tech University STEM program. Lead guitarist in Jazz
+          Band and Liturgical Band.
+
+  projects:
+    enable: true
+    items:
+      - title: Vice City Dashboard
+        content: |-
+          Custom smart home touchscreen interface with device control, music playback, and network statistics. Named
+          after my favorite video game, showcasing UI development skills in a personal context. Features real-time
+          system monitoring and intuitive touch controls.
+        image: /images/vice-city-dashboard.jpg
+        badges:
+          - Qt QML
+          - C++
+          - Philips Hue
+          - Nanoleaf
+          - Pihole
+          - Spotify
+        links:
+          - icon: fab fa-github
+            url: https://github.com/benprisby/vice-city-dashboard
+
+      - title: Home Lab
+        content: |-
+          Self-hosted infrastructure playground with network monitoring, centralized logging, data backup services, and
+          smart home automation. Deployed via Docker Compose across NUC and Raspberry Pi cluster.
+        image: /images/home-lab.jpg
+        badges:
+          - Docker
+          - Unifi
+          - Adguard Home
+          - Grafana
+          - Prometheus
+          - InfluxDB
+          - Homebridge
+          - Nginx
+
+  contact:
+    enable: true
+    title: Contact
+    content: |-
+      Interested in discussing technical challenges, new opportunities, or sharing thoughts on music and mixology?
+      Feel free to reach out!
+    btnName: Email Me
+    btnLink: mailto:ben@benprisby.com
+
+  footer:
+    recentPosts:
+      path: blogs
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/benprisby
+      linkedin: https://www.linkedin.com/in/benprisby/
+      email: mailto:ben@benprisby.com
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: min read
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: Read
+    toc: Table Of Contents
+    copyright: All rights reserved
+    pageNotFound: Page not found
+    emailText: Check out this site
+
+  datesFormat:
+    article: Jan 2, 2006
+    articleList: Jan 2, 2006
+    articleRecent: Jan 2, 2006
+
+  customCSS: false
