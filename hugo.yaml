@@ -1,4 +1,4 @@
-baseURL: https://benprisby.com
+baseURL: https://benprisby.github.io/personal-website/
 languageCode: en-us
 title: Ben Prisby
 theme: hugo-profile
@@ -25,7 +25,8 @@ markup:
 params:
   title: Ben Prisby
   description: Software engineer, musician, fitness enthusiast, etc.
-  favicon: /favicon.png
+  staticPath: "/personal-website"
+  favicon: favicon.png
 
   useBootstrapCDN: true
   mathjax: false
@@ -84,14 +85,14 @@ params:
       I design software that makes complex systems feel effortless. When I'm not architecting device platforms,
       designing user interfaces, or tinkering with my home lab, you'll find me exploring guitar riffs or crafting the
       perfect cocktail for friends.
-    image: /images/profile.jpg
+    image: images/profile.jpg
     bottomImage:
       enable: true
     roundImage: false
     button:
       enable: true
       name: Resume
-      url: /resume.pdf
+      url: resume.pdf
       download: true
       newPage: false
     socialLinks:
@@ -106,7 +107,7 @@ params:
   about:
     enable: true
     title: About Me
-    image: /images/about.jpg
+    image: images/about.jpg
     content: |-
       Welcome! I designed this site to showcase both my technical and non-technical sides, which more often than not
       intertwine.
@@ -247,7 +248,7 @@ params:
           Custom smart home touchscreen interface with device control, music playback, and network statistics. Named
           after my favorite video game, showcasing UI development skills in a personal context. Features real-time
           system monitoring and intuitive touch controls.
-        image: /images/vice-city-dashboard.jpg
+        image: images/vice-city-dashboard.jpg
         badges:
           - Qt QML
           - C++
@@ -263,7 +264,7 @@ params:
         content: |-
           Self-hosted infrastructure playground with network monitoring, centralized logging, data backup services, and
           smart home automation. Deployed via Docker Compose across NUC and Raspberry Pi cluster.
-        image: /images/home-lab.jpg
+        image: images/home-lab.jpg
         badges:
           - Docker
           - Unifi
