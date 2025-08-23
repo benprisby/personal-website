@@ -27,7 +27,7 @@ params:
   description: Software engineer, musician, fitness enthusiast, etc.
   favicon: favicon.png
 
-  useBootstrapCDN: true
+  useBootstrapCDN: false
   mathjax: false
   animate: true
 
