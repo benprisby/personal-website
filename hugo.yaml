@@ -275,6 +275,22 @@ params:
           - Homebridge
           - Nginx
 
+      - title: Maeve's Garden Website
+        content: |-
+          Custom Squarespace design for a landscape architecture business, featuring tailored typography, earth-tone
+          color palettes, and a portfolio showcase. Developed custom HTML/CSS to create a professional online presence
+          reflecting the business's artistic approach to garden design.
+        image: images/maeves-garden.jpg
+        badges:
+          - Squarespace
+          - HTML/CSS
+          - UX Design
+          - Visual Branding
+          - Content Writing
+        links:
+          - icon: fas fa-external-link-alt
+            url: "https://maevesgarden.com"
+
   contact:
     enable: true
     title: Contact
