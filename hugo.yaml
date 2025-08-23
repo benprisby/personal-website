@@ -1,4 +1,4 @@
-baseURL: https://benprisby.github.io/personal-website/
+baseURL: https://benprisby.com
 languageCode: en-us
 title: Ben Prisby
 theme: hugo-profile
@@ -25,7 +25,6 @@ markup:
 params:
   title: Ben Prisby
   description: Software engineer, musician, fitness enthusiast, etc.
-  staticPath: "/personal-website"
   favicon: favicon.png
 
   useBootstrapCDN: true
