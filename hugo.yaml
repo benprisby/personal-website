@@ -25,7 +25,7 @@ markup:
 params:
   title: Ben Prisby
   description: Software engineer, musician, fitness enthusiast, etc.
-  favicon: favicon.png
+  favicon: /icon.svg
 
   useBootstrapCDN: false
   mathjax: false
@@ -61,6 +61,7 @@ params:
   navbar:
     align: ms-auto
     brandName: Ben Prisby
+    brandLogo: /icon.svg
     disableSearch: false
     searchPlaceholder: Search...
     stickyNavBar:
