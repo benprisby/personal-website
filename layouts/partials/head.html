@@ -12,25 +12,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </noscript>
 
-<!-- font configuration -->
-<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/font.css" media="all">
 
 <!-- Internal templates -->
 {{ template "_internal/google_analytics.html" . }}
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 
-<!-- stylesheets -->
+<!-- bundled stylesheets -->
+{{- $cssFiles := slice -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/font.css") -}}
 {{- if (or (eq .Site.Params.UseBootstrapCDN true) (eq .Site.Params.UseBootstrapCDN "css")) -}}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 {{- else -}}
-<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/bootstrap-5/css/bootstrap.min.css" media="all">
+{{- $cssFiles = $cssFiles | append (resources.Get "css/bootstrap.min.css") -}}
 {{- end -}}
-<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/header.css" media="all">
-<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/footer.css" media="all">
-
-<!-- theme -->
-<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/theme.css" media="all">
+{{- $cssFiles = $cssFiles | append (resources.Get "css/header.css") -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/footer.css") -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/theme.css") -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/index.css") -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/projects.css") -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/list.css") -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/about.css") -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/single.css") -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/gallery.css") -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/viewer.min.css") -}}
+{{- if .Site.Params.customCSS -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/style.css") -}}
+{{- end -}}
+{{- $bundle := $cssFiles | resources.Concat "css/bundle.css" | resources.Minify -}}
+<link rel="stylesheet" href="{{ $bundle.Permalink }}" media="all">
 
 <style>
     :root {
