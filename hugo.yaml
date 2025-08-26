@@ -291,6 +291,23 @@ params:
           - icon: fas fa-external-link-alt
             url: "https://maevesgarden.com"
 
+      - title: Wedding Website
+        content: |-
+          Informational website built from a customized HTML5 template for our wedding reception. Features optimized
+          performance, responsive design, and visual refinements. Focused on creating a memorable digital experience
+          that captured our story and celebration details.
+        image: images/wedding-website.jpg
+        badges:
+          - HTML5 UP
+          - HTML/CSS
+          - UI Design
+          - Performance Optimization
+        links:
+          - icon: fas fa-external-link-alt
+            url: "https://prousa.love"
+          - icon: fab fa-github
+            url: https://github.com/benprisby/wedding-website
+
   contact:
     enable: true
     title: Contact
