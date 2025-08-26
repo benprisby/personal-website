@@ -53,7 +53,7 @@ This site is built using a [GitHub Actions workflow](.github/workflows/hugo.yaml
 3. Minifies all relevant output files
 4. Publishes the site to GitHub Pages for hosting
 
-The site is proxied through Cloudflare to boost performance and security, where the custom domain lives.
+The site is proxied through Cloudflare to boost performance and security.
 
 ## 🎨 Theme Modifications
 
