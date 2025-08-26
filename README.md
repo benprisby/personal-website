@@ -64,25 +64,25 @@ contains all modifications I have made to it to suit my needs and address minor 
 customized in the [configuration file](hugo.yaml):
 
 - Changed fonts to JetBrains Mono + Inter with monospace used for all headings and technical elements:
-  [17f21fa](https://github.com/benprisby/personal-website/commit/17f21fa5a280352fdd314e4188a999851b4d9757)
+  [`17f21fa`](https://github.com/benprisby/personal-website/commit/17f21fa5a280352fdd314e4188a999851b4d9757)
 - Fixed hero section buttons horizontal alignment:
-  [415c53d](https://github.com/benprisby/personal-website/commit/415c53d3fddf64eea222e07d2f96ac4791403419)
+  [`415c53d`](https://github.com/benprisby/personal-website/commit/415c53d3fddf64eea222e07d2f96ac4791403419)
 - Set background color on `body` element for overscroll:
-  [56f8037](https://github.com/benprisby/personal-website/commit/56f8037492f41c016594452874f00ae3c12b43c3)
+  [`56f8037`](https://github.com/benprisby/personal-website/commit/56f8037492f41c016594452874f00ae3c12b43c3)
 - Set high fetch priority for hero image:
-  [ff13c5a](https://github.com/benprisby/personal-website/commit/ff13c5a8d486d2cd1940527b6e175f09e552f203)
+  [`ff13c5a`](https://github.com/benprisby/personal-website/commit/ff13c5a8d486d2cd1940527b6e175f09e552f203)
 - Bundled all CSS files into one minified file to reduce server round-trips:
-  [d31f752](https://github.com/benprisby/personal-website/commit/d31f7520dedf8b601812384cb4f9920d7c2ee1ac)
+  [`d31f752`](https://github.com/benprisby/personal-website/commit/d31f7520dedf8b601812384cb4f9920d7c2ee1ac)
 - Expanded favicon formats and platforms:
-  [92b3de6](https://github.com/benprisby/personal-website/commit/92b3de69583e7e91acf17ba7c64ff5aa772dc2b1)
+  [`92b3de6`](https://github.com/benprisby/personal-website/commit/92b3de69583e7e91acf17ba7c64ff5aa772dc2b1)
 - Fixed `aria-controls` value for experience section items:
-  [d8ba169](https://github.com/benprisby/personal-website/commit/d8ba169196605ef9aad36ab57437777a30b00190)
+  [`d8ba169`](https://github.com/benprisby/personal-website/commit/d8ba169196605ef9aad36ab57437777a30b00190)
 - Added/updated `alt` and `aria-label` tags for hero and projects sections:
-  [6b2cee1](https://github.com/benprisby/personal-website/commit/6b2cee14017e89a4090cb974ea382baab1ca1d6d)
+  [`6b2cee1`](https://github.com/benprisby/personal-website/commit/6b2cee14017e89a4090cb974ea382baab1ca1d6d)
 - Added `_blank` target to footer social links:
-  [61bc2c7](https://github.com/benprisby/personal-website/commit/61bc2c7ae3433651a9fbf359afb3550ac1eebb14)
+  [`61bc2c7`](https://github.com/benprisby/personal-website/commit/61bc2c7ae3433651a9fbf359afb3550ac1eebb14)
 - Added `aria-label` for theme toggle button in nav bar:
-  [5752957](https://github.com/benprisby/personal-website/commit/5752957d7b02054055ca837bcf28fd9004ad057b)
+  [`5752957`](https://github.com/benprisby/personal-website/commit/5752957d7b02054055ca837bcf28fd9004ad057b)
 
 ## 🔧 Development Notes
 
