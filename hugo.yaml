@@ -350,7 +350,7 @@ params:
     socialShare: true
     readTime:
       enable: true
-      content: " min read"
+      content: min read
     scrollprogress:
       enable: true
     tags:
