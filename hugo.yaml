@@ -21,6 +21,18 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  tableOfContents:
+    ordered: true
+    startLevel: 2
+    endLevel: 4
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog
+      url: /blog
+      weight: 1
 
 params:
   title: Ben Prisby
@@ -319,7 +331,7 @@ params:
 
   footer:
     recentPosts:
-      path: blogs
+      path: blog
       count: 3
       title: Recent Posts
       enable: true
@@ -344,7 +356,7 @@ params:
 
   terms:
     read: Read
-    toc: Table Of Contents
+    toc: Table of Contents
     copyright: All rights reserved
     pageNotFound: Page not found
     emailText: Check out this site
