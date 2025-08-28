@@ -1,0 +1,22 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+
+{{- $image := .Page.Resources.GetMatch $src -}}
+{{- $webp := $image.Resize "950x webp q85" -}}
+{{- $webp2x := $image.Resize "1900x webp q85" -}}
+{{- $jpeg := $image.Resize "950x jpg q85" -}}
+{{- $jpeg2x := $image.Resize "1900x jpg q85" -}}
+
+<figure>
+  <picture>
+    <source srcset="{{ $webp.RelPermalink }} 1x, {{ $webp2x.RelPermalink }} 2x" type="image/webp">
+    <img src="{{ $jpeg.RelPermalink }}"
+         srcset="{{ $jpeg.RelPermalink }} 1x, {{ $jpeg2x.RelPermalink }} 2x"
+         alt="{{ $alt }}"
+         loading="lazy">
+  </picture>
+  {{- if $caption -}}
+  <figcaption><p>{{ $caption }}</p></figcaption>
+  {{- end -}}
+</figure>
