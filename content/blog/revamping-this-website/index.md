@@ -53,7 +53,7 @@ First, I went through several hosting services, each getting progressively more 
 be incredibly slow, so I eventually wound up with AWS Lightsail, which was still affordable and did the job well with an
 easy-to-use WordPress template to get off the ground quickly.
 
-{{< figure src="old-website.jpg" alt="Website sections" caption="Introductory sections from the old website" class="img-fluid mx-auto d-block w-75" >}}
+{{< figure src="old-website.jpg" alt="Website sections" caption="Introductory sections from the old website" >}}
 
 Performance of the site was still poor, so I began installing one optimization plugin after another to try to cut down
 load times and resource sizes. I also proxied the site through Cloudflare, which did help significantly but did not
