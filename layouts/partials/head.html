@@ -40,7 +40,7 @@
 {{- $cssFiles = $cssFiles | append (resources.Get "css/gallery.css") -}}
 {{- $cssFiles = $cssFiles | append (resources.Get "css/viewer.min.css") -}}
 {{- if .Site.Params.customCSS -}}
-{{- $cssFiles = $cssFiles | append (resources.Get "css/style.css") -}}
+{{- $cssFiles = $cssFiles | append (resources.Get "css/custom.css") -}}
 {{- end -}}
 {{- $bundle := $cssFiles | resources.Concat "css/bundle.css" | resources.Minify -}}
 <link rel="stylesheet" href="{{ $bundle.Permalink }}" media="all">
