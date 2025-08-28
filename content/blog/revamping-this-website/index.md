@@ -155,15 +155,16 @@ With Hugo's asset pipeline, this was a relatively straightforward task:
 {{- if .Site.Params.customCSS -}}
 {{- $cssFiles = $cssFiles | append (resources.Get "css/style.css") -}}
 {{- end -}}
-{{- $bundle := $cssFiles | resources.Concat "css/bundle.css" | resources.Minify -}}
+{{- $bundle := $cssFiles | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint -}}
 <link rel="stylesheet" href="{{ $bundle.Permalink }}" media="all">
 ```
 
 One downside, however, is that it required copying all of the CSS files into the `assets` directory to leverage these
 pipeline functions. If things change upstream, they will need to be synced accordingly.
 
-However, this results in a `bundle.min.css` being created with everything in it. While I kept the conditional logic to
-support Bootstrap coming from a CDN, I use the default theme behavior of hosting it locally.
+However, this results in a `bundle.min.<hash>.css` being created with everything in it and a hash for cache-busting.
+While I kept the conditional logic to support Bootstrap coming from a CDN, I use the default theme behavior of hosting
+it locally.
 
 ### Accessibility Improvements
 
