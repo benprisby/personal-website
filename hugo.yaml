@@ -92,7 +92,7 @@ params:
     button:
       enable: true
       name: Resume
-      url: resume.pdf
+      url: ben-prisby-resume.pdf
       download: true
       newPage: false
     socialLinks:
