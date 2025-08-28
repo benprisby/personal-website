@@ -83,7 +83,7 @@ params:
     subtitle: Software Engineer
     content: |-
       I design software that makes complex systems feel effortless. When I'm not architecting device platforms,
-      designing user interfaces, or tinkering with my home lab, you'll find me exploring guitar riffs or crafting the
+      designing user interfaces, or tinkering with my homelab, you'll find me exploring guitar riffs or crafting the
       perfect cocktail for friends.
     image: images/profile.jpg
     bottomImage:
@@ -120,7 +120,7 @@ params:
       that lets our small team support an expanding, diverse product portfolio without sacrificing quality (or sanity).
       I also have a niche for creating embedded user interfaces that make our devices easy to use.
 
-      Outside of work, I'm constantly experimenting. My home lab is where I prototype ideas and stay current with
+      Outside of work, I'm constantly experimenting. My homelab is where I prototype ideas and stay current with
       technologies that pique my interest. I've been playing guitar since I was nine and it continues to be my favorite
       creative outlet, where I explore patterns and emotions through songwriting. And I've developed a passion for
       mixology; there's something deeply satisfying about balancing flavors and perfecting techniques. When I'm not
@@ -260,7 +260,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/benprisby/vice-city-dashboard
 
-      - title: Home Lab
+      - title: Homelab
         content: |-
           Self-hosted infrastructure playground with network monitoring, centralized logging, data backup services, and
           smart home automation. Deployed via Docker Compose across NUC and Raspberry Pi cluster.
