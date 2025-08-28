@@ -9,6 +9,6 @@ p, li, span, div {
 /* Headings and technical elements */
 h1, h2, h3, h4, h5, h6,
 .primary-font, #primary-font,
-code, pre, .badge {
+code, code span, code div, pre, pre span, pre div, .badge {
     font-family: "JetBrains Mono", "SF Mono", "Monaco", "Inconsolata", "Fira Code", monospace !important;
 }
