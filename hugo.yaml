@@ -26,6 +26,8 @@ markup:
     startLevel: 2
     endLevel: 4
 
+pluralizeListTitles: false
+
 Menus:
   main:
     - identifier: blog
