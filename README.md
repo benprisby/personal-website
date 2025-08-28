@@ -83,6 +83,8 @@ customized in the [configuration file](hugo.yaml):
   [`61bc2c7`](https://github.com/benprisby/personal-website/commit/61bc2c7ae3433651a9fbf359afb3550ac1eebb14)
 - Added `aria-label` for theme toggle button in nav bar:
   [`5752957`](https://github.com/benprisby/personal-website/commit/5752957d7b02054055ca837bcf28fd9004ad057b)
+- Renamed custom CSS file from `style.css` to `custom.css`:
+  [`9c273b1`](https://github.com/benprisby/personal-website/commit/9c273b18ee9521beaab7fddf5fa807356809d058)
 
 ## 🔧 Development Notes
 
