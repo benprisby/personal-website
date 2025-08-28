@@ -12,3 +12,14 @@ code:not(pre code),
     color: var(--text-color-dark) !important;
     background-color: var(--secondary-background-color-dark) !important;
 }
+
+figcaption {
+    text-align: center;
+    color: var(--text-secondary-color);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+figcaption p {
+    margin: 0;
+}
