@@ -87,6 +87,8 @@ customized in the [configuration file](hugo.yaml):
   [`9c273b1`](https://github.com/benprisby/personal-website/commit/9c273b18ee9521beaab7fddf5fa807356809d058)
 - Fix light/dark mode toggling and avoid occasional white flash when loading:
   [`b4b4132`](https://github.com/benprisby/personal-website/commit/b4b41327dc2ec2cf1f8971f48db3586ede6909fd)
+- Fix theme toggle button alignment:
+  [`746bf9e`](https://github.com/benprisby/personal-website/commit/746bf9e1e35bfcdd29ab9d2af4bcd355257f5b00)
 
 ## 🔧 Development Notes
 
