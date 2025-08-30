@@ -2,6 +2,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+
+<script>
+(function() {
+    const theme = localStorage.getItem("pref-theme");
+    const isDark = theme === "dark" || (!theme && matchMedia("(prefers-color-scheme: dark)").matches);
+    if (isDark) {
+        document.documentElement.classList.add("dark-theme");
+    }
+    if (!theme) {
+        localStorage.setItem("pref-theme", isDark ? "dark" : "light");
+    }
+})();
+</script>
+
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/icon.svg" type="image/svg+xml">
@@ -69,6 +83,10 @@
 
     html, body {
         background-color: var(--background-color) !important;
+    }
+
+    html.dark-theme, body.dark {
+        background-color: var(--background-color-dark) !important;
     }
 
     ::-webkit-scrollbar-corner {
