@@ -85,6 +85,8 @@ customized in the [configuration file](hugo.yaml):
   [`5752957`](https://github.com/benprisby/personal-website/commit/5752957d7b02054055ca837bcf28fd9004ad057b)
 - Renamed custom CSS file from `style.css` to `custom.css`:
   [`9c273b1`](https://github.com/benprisby/personal-website/commit/9c273b18ee9521beaab7fddf5fa807356809d058)
+- Fix light/dark mode toggling and avoid occasional white flash when loading:
+  [`b4b4132`](https://github.com/benprisby/personal-website/commit/b4b41327dc2ec2cf1f8971f48db3586ede6909fd)
 
 ## 🔧 Development Notes
 
