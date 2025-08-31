@@ -42,7 +42,7 @@ Menus:
 
 params:
   title: Ben Prisby
-  description: Software engineer, musician, fitness enthusiast, etc.
+  description: Software Engineer specializing in embedded UI and device platforms. I design software that makes complex systems feel effortless. Guitar, cocktails, homelab.
   favicon: /icon.svg
 
   useBootstrapCDN: false
