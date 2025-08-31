@@ -14,6 +14,10 @@ outputs:
 
 enableRobotsTXT: true
 
+services:
+  googleAnalytics:
+    id: G-E86CG6GLD8
+
 pagination:
   pagerSize: 5
 
