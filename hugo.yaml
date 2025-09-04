@@ -292,6 +292,9 @@ params:
           - InfluxDB
           - Homebridge
           - Nginx
+        links:
+          - icon: fab fa-github
+            url: https://github.com/benprisby/homelab
 
       - title: Maeve's Garden Website
         content: |-
