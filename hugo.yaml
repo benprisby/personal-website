@@ -293,6 +293,8 @@ params:
           - Homebridge
           - Nginx
         links:
+          - icon: fas fa-newspaper
+            url: /blog/homelab-tour-2025/
           - icon: fab fa-github
             url: https://github.com/benprisby/homelab
 
