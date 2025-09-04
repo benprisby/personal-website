@@ -285,11 +285,10 @@ params:
         image: images/home-lab.jpg
         badges:
           - Docker
-          - Unifi
-          - Adguard Home
+          - UniFi
+          - AdGuard Home
           - Grafana
           - Prometheus
-          - InfluxDB
           - Homebridge
           - Nginx
         links:
