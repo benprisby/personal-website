@@ -1,0 +1,49 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Site.Params.description }}">
+{{ end }}
+
+{{ define "title" }}
+{{ .Site.Params.terms.pageNotFound | default "Page Not Found" }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container py-5 text-center">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="mb-4">
+                <h1 class="display-1 fw-bold text-primary">404</h1>
+                <h2 class="h3 mb-3">Page Not Found 😟</h2>
+                <pre class="bg-dark text-light p-3 rounded mb-4 text-start"><span class="text-muted">$ ping <span id="ping-target">this-page.benprisby.com</span></span>
+PING <span id="ping-host">this-page.benprisby.com</span>: 56 data bytes
+<span class="text-danger">ping: cannot resolve <span id="ping-error">this-page.benprisby.com</span>: No such page exists</span>
+<span class="text-warning">^C (gave up after realizing this was silly)</span>
+
+<span class="text-muted">$ traceroute <span id="traceroute-target">your-hopes-and-dreams</span></span>
+traceroute to <span id="traceroute-host">your-hopes-and-dreams</span>, 64 hops max
+<span class="text-warning"> 1  my-router.local (192.168.1.1)  2.456 ms</span>
+<span class="text-warning"> 2  void.null (0.0.0.0)  ∞ ms</span>
+<span class="text-warning"> 3  * * * (probably got lost)</span>
+<span class="text-success"> 4  reality.check (127.0.0.1)  0.001 ms ✓</span>
+<span class="text-muted">Connection terminated: Page not found 🤷‍♂️</span></pre>
+                <div class="d-flex gap-3 justify-content-center">
+                    <a href="{{ .Site.BaseURL }}" class="btn btn-primary">Go Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const path = window.location.pathname.replace(/^\/|\/$|\/$|\/$/g, '') || 'this-page';
+    const baseURL = '{{ .Site.BaseURL }}';
+    const hostname = new URL(baseURL).hostname;
+    const domain = path + '.' + hostname;
+    document.getElementById('ping-target').textContent = domain;
+    document.getElementById('ping-host').textContent = domain;
+    document.getElementById('ping-error').textContent = domain;
+    document.getElementById('traceroute-target').textContent = path;
+    document.getElementById('traceroute-host').textContent = path;
+});
+</script>
+{{ end }}
