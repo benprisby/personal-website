@@ -65,7 +65,6 @@
         --primary-color: {{ .Site.Params.color.primaryColor | default "#007bff" }};
         --secondary-color: {{ .Site.Params.color.secondaryColor | default "#f8f9fa" }};
 
-        /* dark mode colors */
         --text-color-dark: {{ .Site.Params.color.darkmode.textColor | default "#e4e6eb" }};
         --text-secondary-color-dark: {{ .Site.Params.color.darkmode.secondaryTextColor | default "#b0b3b8" }};
         --text-link-color-dark: {{ .Site.Params.color.darkmode.textLinkColor | default (.Site.Params.color.darkmode.primaryColor | default "#ffffff") }};
@@ -74,58 +73,12 @@
         --primary-color-dark: {{ .Site.Params.color.darkmode.primaryColor | default "#ffffff" }};
         --secondary-color-dark: {{ .Site.Params.color.darkmode.secondaryColor | default "#212529" }};
     }
+
     body {
         font-size: {{ .Site.Params.font.fontSize | default "1rem" }};
         font-weight: {{ .Site.Params.font.fontWeight | default "400" }};
         line-height: {{ .Site.Params.font.lineHeight | default "1.5" }};
         text-align: {{ .Site.Params.font.textAlign | default "left" }};
-    }
-
-    html, body {
-        background-color: var(--background-color) !important;
-    }
-
-    html.dark-theme, body.dark {
-        background-color: var(--background-color-dark) !important;
-    }
-
-    ::-webkit-scrollbar-corner {
-        display: none;
-    }
-
-    pre::-webkit-scrollbar,
-    .highlight pre::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-        background: transparent;
-    }
-
-    pre::-webkit-scrollbar-track,
-    .highlight pre::-webkit-scrollbar-track {
-        border-radius: 4px;
-        background: transparent;
-    }
-
-    pre::-webkit-scrollbar-thumb,
-    .highlight pre::-webkit-scrollbar-thumb {
-        border-radius: 4px;
-        background: rgba(0, 0, 0, 0.3);
-    }
-
-    .dark pre::-webkit-scrollbar-thumb,
-    .dark .highlight pre::-webkit-scrollbar-thumb {
-        background: rgba(255, 255, 255, 0.2);
-    }
-
-    pre::-webkit-scrollbar-corner,
-    .highlight pre::-webkit-scrollbar-corner {
-        display: none;
-    }
-
-    #search-content::-webkit-scrollbar {
-        width: .5em;
-        height: .1em;
-        background-color: var(--background-color);
     }
 </style>
 

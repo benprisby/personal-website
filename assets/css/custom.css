@@ -1,3 +1,52 @@
+html, body {
+    background-color: var(--background-color) !important;
+}
+
+html.dark-theme, body.dark {
+    background-color: var(--background-color-dark) !important;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+::-webkit-scrollbar-corner {
+    display: none;
+}
+
+pre::-webkit-scrollbar,
+.highlight pre::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: transparent;
+}
+
+pre::-webkit-scrollbar-track,
+.highlight pre::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background: transparent;
+}
+
+pre::-webkit-scrollbar-thumb,
+.highlight pre::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.dark pre::-webkit-scrollbar-thumb,
+.dark .highlight pre::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+pre::-webkit-scrollbar-corner,
+.highlight pre::-webkit-scrollbar-corner {
+    display: none;
+}
+
+#search-content::-webkit-scrollbar {
+    width: .5em;
+    height: .1em;
+    background-color: var(--background-color);
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+
 #single .page-content pre {
     padding: 1em 1.2em;
 }
@@ -5,17 +54,18 @@
 code:not(pre code),
 #single .page-content code:not(pre code) {
     color: var(--text-color) !important;
-    background-color: var(--secondary-background-color) !important;
-    padding: 0.2em 0.4em !important;
-    border-radius: 3px !important;
-    font-size: 0.875em !important;
+    background-color: var(--secondary-background-color);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.875em;
 }
 
 .dark code:not(pre code),
 .dark #single .page-content code:not(pre code) {
     color: var(--text-color-dark) !important;
-    background-color: var(--secondary-background-color-dark) !important;
+    background-color: var(--secondary-background-color-dark);
 }
+/* ------------------------------------------------------------------------------------------------------------------ */
 
 figcaption {
     text-align: center;
@@ -27,3 +77,4 @@ figcaption {
 figcaption p {
     margin: 0;
 }
+/* ------------------------------------------------------------------------------------------------------------------ */
