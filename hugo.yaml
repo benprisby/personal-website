@@ -25,10 +25,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-  tableOfContents:
-    ordered: true
-    startLevel: 2
-    endLevel: 3
 
 pluralizeListTitles: false
 
