@@ -370,7 +370,7 @@ params:
     read: Read
     toc: Table of Contents
     copyright: All rights reserved
-    pageNotFound: Page not found
+    pageNotFound: Page Not Found
     emailText: Check out this site
 
   datesFormat:
