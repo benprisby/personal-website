@@ -1,3 +1,7 @@
+#single .page-content pre {
+    padding: 1em 1.2em;
+}
+
 code:not(pre code),
 #single .page-content code:not(pre code) {
     color: var(--text-color) !important;
