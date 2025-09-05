@@ -1,3 +1,5 @@
+/* Global background coloring */
+
 html, body {
     background-color: var(--background-color) !important;
 }
@@ -6,6 +8,8 @@ html.dark-theme, body.dark {
     background-color: var(--background-color-dark) !important;
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Global scrollbars */
 
 ::-webkit-scrollbar-corner {
     display: none;
@@ -47,6 +51,8 @@ pre::-webkit-scrollbar-corner,
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
 
+/* Blog page code blocks */
+
 #single .page-content pre {
     padding: 1em 1.2em;
 }
@@ -67,6 +73,8 @@ code:not(pre code),
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
 
+/* Blog page blockquotes */
+
 #single .page-content blockquote {
     font-size: 1rem;
     font-weight: normal;
@@ -78,6 +86,8 @@ code:not(pre code),
     margin: 0;
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Blog page image captions */
 
 figcaption {
     text-align: center;
