@@ -157,3 +157,27 @@ figcaption p {
     color: var(--background-color-dark) !important;
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Typewriter effect for hero subtitle */
+
+#hero h2 {
+    font-size: clamp(1.25rem, 5vw, 2rem);
+    min-height: 1.2em;
+}
+
+.typewriter::after {
+    content: "_";
+    display: inline-block;
+    animation: blink 1s infinite;
+    color: var(--primary-color);
+}
+
+.dark .typewriter::after {
+    color: var(--primary-color-dark);
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
