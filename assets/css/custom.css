@@ -100,3 +100,60 @@ figcaption p {
     margin: 0;
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
+
+/* All non-social buttons (base style) */
+
+.btn:not(.social-icon) {
+    border-radius: 0.4rem !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+}
+
+.btn:hover {
+    transform: translateY(-1px) !important;
+    opacity: 0.9 !important;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Primary buttons (Resume, Email Me, blog card Read buttons) */
+
+#hero .btn:not(.social-icon),
+#contact .btn,
+#list-page .btn.btn-outline-info {
+    background-color: var(--primary-color) !important;
+    color: var(--background-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.dark #hero .btn:not(.social-icon),
+.dark #contact .btn,
+.dark #list-page .btn.btn-outline-info {
+    background-color: var(--primary-color-dark) !important;
+    color: var(--background-color-dark) !important;
+    border-color: var(--primary-color-dark) !important;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Secondary buttons (footer card Read buttons) */
+
+.card .btn {
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.dark .card .btn {
+    color: var(--primary-color-dark) !important;
+    border-color: var(--primary-color-dark) !important;
+}
+
+.card .btn:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--background-color) !important;
+}
+
+.dark .card .btn:hover {
+    background-color: var(--primary-color-dark) !important;
+    color: var(--background-color-dark) !important;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
