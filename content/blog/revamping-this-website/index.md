@@ -38,7 +38,7 @@ be the style at the time).
 Anyway, I found WordPress relatively easy to pick up even with its complexities. I didn't have much in the way of
 content, but it was fun making some quick websites for school projects on random, long, free domain names. It was a
 chance to get familiar with themes, plugins, SQLite, and cPanel. And this early experience always kept WordPress in my
-back pocket as I started playing around with other web technologies and site builders like SquareSpace throughout high
+back pocket as I started playing around with other web technologies and site builders like Squarespace throughout high
 school.
 
 ### First Pass
