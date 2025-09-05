@@ -93,6 +93,8 @@ customized in the [configuration file](hugo.yaml):
   [`b766747`](https://github.com/benprisby/personal-website/commit/b7667471e0c40d66869baf156a9c641c4bcc0bd7)
 - "Plainify" blog summaries and reduce length in footer cards:
   [`81b69da`](https://github.com/benprisby/personal-website/commit/81b69dae19165038c23913aa72a566e479dd91f3)
+- Add typewriter effect to hero subtitle:
+  [`7588668`](https://github.com/benprisby/personal-website/commit/758866856647a67edd72165bb1fc4f32abfc7deb)
 
 ## 🔧 Development Notes
 
