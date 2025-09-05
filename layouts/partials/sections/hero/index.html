@@ -9,7 +9,7 @@
                 <h1>
                     {{ .Site.Params.hero.title }}
                 </h1>
-                <h2>
+                <h2 data-typewriter-titles='{{ .Site.Params.hero.typewriterTitles | jsonify }}'>
                     {{ .Site.Params.hero.subtitle }}
                 </h2>
                 <p class="hero-content">
@@ -309,4 +309,5 @@
     </div>
     {{ end }}
 </section>
+<script src="/js/typewriter.js"></script>
 {{ end }}

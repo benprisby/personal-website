@@ -95,6 +95,12 @@ params:
     intro: Hey there! I'm
     title: Ben Prisby
     subtitle: Software Engineer
+    typewriterTitles:
+      - Software Engineer
+      - Musician
+      - Fitness Enthusiast
+      - Platform Architect
+      - Dog Dad
     content: |-
       I design software that makes complex systems feel effortless. When I'm not architecting device platforms,
       designing user interfaces, or tinkering with my homelab, you'll find me exploring guitar riffs or crafting the
