@@ -89,6 +89,10 @@ customized in the [configuration file](hugo.yaml):
   [`b4b4132`](https://github.com/benprisby/personal-website/commit/b4b41327dc2ec2cf1f8971f48db3586ede6909fd)
 - Fix theme toggle button alignment:
   [`746bf9e`](https://github.com/benprisby/personal-website/commit/746bf9e1e35bfcdd29ab9d2af4bcd355257f5b00)
+- Add render hook to open Markdown links in new tabs:
+  [`b766747`](https://github.com/benprisby/personal-website/commit/b7667471e0c40d66869baf156a9c641c4bcc0bd7)
+- "Plainify" blog summaries and reduce length in footer cards:
+  [`81b69da`](https://github.com/benprisby/personal-website/commit/81b69dae19165038c23913aa72a566e479dd91f3)
 
 ## 🔧 Development Notes
 
