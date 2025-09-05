@@ -41,8 +41,8 @@ pre::-webkit-scrollbar-corner,
 }
 
 #search-content::-webkit-scrollbar {
-    width: .5em;
-    height: .1em;
+    width: 0.5em;
+    height: 0.1em;
     background-color: var(--background-color);
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
