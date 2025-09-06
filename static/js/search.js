@@ -77,6 +77,10 @@ async function performSearch(evt) {
 
           const link = document.createElement("a");
           link.href = item.permalink; // Safe, since we validated it
+          link.addEventListener("click", function() {
+            document.getElementById("search-content").style.display = "none";
+            document.getElementById("search-results").innerHTML = "";
+          });
 
           const contentDiv = document.createElement("div");
           contentDiv.className = "p-3";
