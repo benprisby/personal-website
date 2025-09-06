@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.148.2
+      HUGO_VERSION: 0.149.1
     steps:
       - name: Install Hugo CLI
         run: |
@@ -32,10 +32,10 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: stable
+          go-version: 1.25.1
       - name: Install Minify
         run: |
-          go install github.com/tdewolff/minify/v2/cmd/minify@latest
+          go install github.com/tdewolff/minify/v2/cmd/minify@2.24.3
           echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
       - name: Checkout
         uses: actions/checkout@v4
