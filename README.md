@@ -95,6 +95,8 @@ customized in the [configuration file](hugo.yaml):
   [`81b69da`](https://github.com/benprisby/personal-website/commit/81b69dae19165038c23913aa72a566e479dd91f3)
 - Add typewriter effect to hero subtitle:
   [`7588668`](https://github.com/benprisby/personal-website/commit/758866856647a67edd72165bb1fc4f32abfc7deb)
+- Fix and improve search functionality:
+  [`4d5fb7c`](https://github.com/benprisby/personal-website/commit/4d5fb7ce7a9de1415d85047c31c55d012686b563)
 
 ## 🔧 Development Notes
 
