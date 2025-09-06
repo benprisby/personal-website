@@ -32,6 +32,18 @@ header .navbar .navbar-nav a {
     justify-content: center;
 }
 
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navbar-toggler {
     border: none;
     outline: none;
@@ -59,6 +71,12 @@ header .nav-link{
 .navbar .nav-link:hover {
     color: var(--primary-color) !important;
 }
+.nav-link.nav-link-sep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav-link.nav-link-sep:after {
     content: "|";
     color: var(--text-color) !important;
