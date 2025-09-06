@@ -99,6 +99,10 @@ customized in the [configuration file](hugo.yaml):
   [`4d5fb7c`](https://github.com/benprisby/personal-website/commit/4d5fb7ce7a9de1415d85047c31c55d012686b563)
 - Clear search context when clicking a result:
   [`f5c90f1`](https://github.com/benprisby/personal-website/commit/f5c90f19857363ea63a778ae334d750a11883c97)
+- Fix nav item vertical centering on wider screens:
+  [`9690cc6`](https://github.com/benprisby/personal-website/commit/9690cc6e0c4c65db2c3f32d8ab1a2beed79ad67a)
+- Ensure nav bar separator consumes full height:
+  [`650c9be`](https://github.com/benprisby/personal-website/commit/650c9be22462400c877fb23204e934b0b50fcd5e)
 
 ## 🔧 Development Notes
 
