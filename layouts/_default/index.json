@@ -1,0 +1,7 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range .Site.RegularPages -}}
+    {{- $contentPlain := .Content | plainify | htmlUnescape -}}
+    {{- $description := .Params.description | default ($contentPlain | truncate 150 "...") -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "description" $description "content" $contentPlain "image" .Params.image "permalink" .Permalink) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}
