@@ -75,11 +75,13 @@ header .nav-link{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 .nav-link.nav-link-sep:after {
     content: "|";
     color: var(--text-color) !important;
+    line-height: 1;
 }
 
 li > .dropdown-toggle:focus{
