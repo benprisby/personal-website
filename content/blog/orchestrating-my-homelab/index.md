@@ -239,7 +239,7 @@ In Ansible, this functionality was simple to capture in a `system-update.yml` pl
 ```
 
 Now instead of SSHing into each server and running a script, I can just run the playbook and have all servers update
-simultaneously! <small><i>...What could possibly go wrong with that strategy? 🙃</i></small>
+simultaneously! <small><i>...What could possibly go wrong with that strategy?</i> 🙃</small>
 
 ## Looking Back (and Ahead)
 
