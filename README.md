@@ -97,6 +97,8 @@ customized in the [configuration file](hugo.yaml):
   [`7588668`](https://github.com/benprisby/personal-website/commit/758866856647a67edd72165bb1fc4f32abfc7deb)
 - Fix and improve search functionality:
   [`4d5fb7c`](https://github.com/benprisby/personal-website/commit/4d5fb7ce7a9de1415d85047c31c55d012686b563)
+- Clear search context when clicking a result:
+  [`f5c90f1`](https://github.com/benprisby/personal-website/commit/f5c90f19857363ea63a778ae334d750a11883c97)
 
 ## 🔧 Development Notes
 
