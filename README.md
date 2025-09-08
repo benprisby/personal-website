@@ -15,12 +15,12 @@ My personal portfolio website built with Hugo, featuring a modern, responsive de
 
 This website showcases my professional experience, projects, and personal interests. It includes:
 
-- **Hero Section** - Brief introduction with social links and resume download
-- **About Me** - Personal background and technical skills summary
-- **Experience** - Selected professional work history
-- **Education** - Academic background and selected accolades
-- **Projects** - Highlighted personal projects and client work
-- **Contact** - Ways to get in touch
+- **Hero Section**: Brief introduction with social links and resume download
+- **About Me**: Personal background and technical skills summary
+- **Experience**: Selected professional work history
+- **Education**: Academic background and selected accolades
+- **Projects**: Highlighted personal projects and client work
+- **Contact**: Ways to get in touch
 
 ## 🚀 Getting Started
 
