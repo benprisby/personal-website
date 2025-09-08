@@ -179,3 +179,7 @@ I'm excited with the results of redoing this website. It was a great opportunity
 me here and to pick a better tool for what I was looking to create. Going forward, it gives me a lightweight platform to
 express myself in posts like these while maintaining full control over the look and feel. I can finally make some form
 of a blog happen in addition to improving my overall digital presence!
+
+---
+
+📁 **Source**: [View on GitHub](https://github.com/benprisby/personal-website)

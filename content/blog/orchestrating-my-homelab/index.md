@@ -252,3 +252,7 @@ playbook to run post-commit, likely by making one my servers a self-hosted GitHu
 periodically fetch the latest desired state and apply it themselves (though that would require Ansible to be installed
 on each server). Regardless, it would enforce the repository as the single source of truth and keep servers in sync with
 it.
+
+---
+
+📁 **Source**: [View on GitHub](https://github.com/benprisby/homelab)

@@ -140,8 +140,7 @@ With the hardware discussion out of the way, I'll survey all of the services run
 loosely grouped into the following categories, though things are always in flux. Subsequent posts may go into more
 detail on a particular area or problem I was trying to solve.
 
-Unless otherwise noted, each service is deployed as a Docker container part of a Compose stack. See
-[the GitHub repository](https://github.com/benprisby/homelab) for details.
+Unless otherwise noted, each service is deployed as a Docker container part of a Compose stack.
 
 ### Networking
 
@@ -320,3 +319,7 @@ Beyond this, I would explore other notification integrations for services like N
 immediately if a critical issue like power loss or print failure occurs. Getting notifications via email would suffice,
 but ideally push notifications or text messages would be even better. As with any of these upgrades, as long as each
 iteration teaches me something new and solves a real problem, I know I'm heading in the right direction.
+
+---
+
+📁 **Source**: [View on GitHub](https://github.com/benprisby/homelab)
