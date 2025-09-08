@@ -41,9 +41,9 @@ themselves rather than maintaining the OS.
 
 ## Introducing Ansible
 
-With the OS settled, Ansible was the natural choice for capturing everything on top of it for each server. I first came
-across Ansible at work when working with our DevOps team, where playbooks describe our build server infrastructure. I
-then became more familiar with its concepts through many of
+With the OS settled, [Ansible](https://www.ansible.com) was the natural choice for capturing everything on top of it for
+each server. I first came across Ansible at work when working with our DevOps team, where playbooks describe our build
+server infrastructure. I then became more familiar with its concepts through many of
 [Jeff Geerling's excellent videos](https://www.youtube.com/playlist?list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN). While
 likely stating the obvious, Ansible is incredibly powerful and flexible, with its collections providing functionality
 for configuring more or less every nook and cranny of a system (and *then* there are the additional roles all across

@@ -144,11 +144,11 @@ Unless otherwise noted, each service is deployed as a Docker container part of a
 
 ### Networking
 
-| Service             | Server(s)       | Description |
-| ------------------- | --------------- | ----------- |
-| AdGuard Home        | `small-slice-*` | Network-wide DNS filtering and ad blocking |
-| Nginx Proxy Manager | `big-slice`     | Reverse proxy with SSL certificate management |
-| Tailscale           | `big-slice`     | VPN for secure remote access |
+| Service                                                           | Server(s)       | Description |
+| ----------------------------------------------------------------- | --------------- | ----------- |
+| [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) | `small-slice-*` | Network-wide DNS filtering and ad blocking |
+| [Nginx Proxy Manager](https://nginxproxymanager.com)              | `big-slice`     | Reverse proxy with SSL certificate management |
+| [Tailscale](https://tailscale.com)                                | `big-slice`     | VPN for secure remote access |
 
 After many years with Pi-hole, I switched to AdGuard Home for its extended feature set, namely built-in DNS-over-HTTPS
 (DoH) support. I run the [oisd blocklist](https://oisd.nl) to block most ad, malicious, and tracking domains without
@@ -166,9 +166,9 @@ capabilities when a direct route cannot be established. Fantastic!
 
 ### Landing Page
 
-| Service  | Server(s)   | Description |
-| -------- | ----------- | ----------- |
-| Homepage | `big-slice` | Unified dashboard and landing page for all homelab services |
+| Service                             | Server(s)   | Description |
+| ----------------------------------- | ----------- | ----------- |
+| [Homepage](https://gethomepage.dev) | `big-slice` | Unified dashboard and landing page for all homelab services |
 
 Homepage provides a simple, flexible landing page that serves as the index for all services. It also includes other
 useful content like web links and weather. More significantly though, it provides high-level statuses of all Docker
@@ -179,15 +179,15 @@ I can see query counts and block rates for my AdGuard servers directly from this
 
 ### Monitoring
 
-| Service                 | Server(s)   | Description |
-| ----------------------- | ----------- | ----------- |
-| Prometheus              | `big-slice` | Metrics collection and time-series database |
-| Grafana                 | `big-slice` | Visualization and alerting for monitoring data |
-| UnPoller                | `big-slice` | UniFi device metrics exporter for Prometheus |
-| Speedtest Exporter      | `big-slice` | Periodic network speed test results collection |
-| Node Exporter           | all         | Host system metrics (CPU, memory, disk, network) |
-| cAdvisor                | all         | Container resource usage and performance metrics |
-| Network UPS Tools (NUT) | `nas`       | UPS monitoring and alerting |
+| Service                                                                       | Server(s)   | Description |
+| ----------------------------------------------------------------------------- | ----------- | ----------- |
+| [Prometheus](https://prometheus.io)                                           | `big-slice` | Metrics collection and time-series database |
+| [Grafana](https://grafana.com)                                                | `big-slice` | Visualization and alerting for monitoring data |
+| [UnPoller](https://unpoller.com)                                              | `big-slice` | UniFi device metrics exporter for Prometheus |
+| [Speedtest Exporter](https://github.com/MiguelNdeCarvalho/speedtest-exporter) | `big-slice` | Periodic network speed test results collection |
+| [Node Exporter](https://github.com/prometheus/node_exporter)                  | all         | Host system metrics (CPU, memory, disk, network) |
+| [cAdvisor](https://github.com/google/cadvisor)                                | all         | Container resource usage and performance metrics |
+| [Network UPS Tools (NUT)](https://networkupstools.org/)                       | `nas`       | UPS monitoring and alerting |
 
 Prometheus is the centralized database where I more or less attempt to gather as many useful metrics as I can from my
 servers, although I'm sure there is room for improvement. Node Exporter and cAdvisor give me loads of details about each
@@ -211,10 +211,10 @@ already includes the server and provides a simple interface for configuring it.
 
 ### Smart Home
 
-| Service    | Server(s)   | Description |
-| ---------- | ----------- | ----------- |
-| Homebridge | `big-slice` | HomeKit integration for non-native smart devices |
-| OctoPrint  | `octopi` *  | 3D printer management and monitoring interface |
+| Service                             | Server(s)   | Description |
+| ----------------------------------- | ----------- | ----------- |
+| [Homebridge](https://homebridge.io) | `big-slice` | HomeKit integration for non-native smart devices |
+| [OctoPrint](https://octoprint.org)  | `octopi` *  | 3D printer management and monitoring interface |
 
 <small>* — Raspberry Pi 3B+ using off-the-shelf [OctoPi image](https://octoprint.org/download/#octopi)</small>
 
@@ -229,9 +229,9 @@ SD card and allows an otherwise "dumb" printer to participate in the smart home.
 
 ### Logging
 
-| Service | Server(s)   | Description |
-| ------- | ----------- | ----------- |
-| Graylog | `big-slice` | Centralized log management and analysis platform |
+| Service                        | Server(s)   | Description |
+| ------------------------------ | ----------- | ----------- |
+| [Graylog](https://graylog.org) | `big-slice` | Centralized log management and analysis platform |
 
 After experimenting with other log servers, I settled on Graylog. It provides a nice interface for streaming and
 filtering logs coming from my servers and other homelab equipment. Graylog exposes many inputs to ingest logs, but I
@@ -243,10 +243,10 @@ directly sending them, but it's sufficient for now).
 
 ### Backups
 
-| Service | Server(s) | Description |
-| ------- | --------- | ----------- |
-| Gickup  | `nas`     | Automated Git repository backup tool |
-| Kiwix   | `nas`     | Offline Wikipedia and content server |
+| Service                                           | Server(s) | Description |
+| ------------------------------------------------- | --------- | ----------- |
+| [Gickup](https://github.com/cooperspencer/gickup) | `nas`     | Automated Git repository backup tool |
+| [Kiwix](https://www.kiwix.org)                    | `nas`     | Offline Wikipedia and content server |
 
 As probably expected, the NAS is the backup destination for all machines. All Macs have Time Machine enabled for full,
 iterative system backups over the network. Synology Cloud Sync keeps a local backup of Google Drive, even though Google
@@ -258,11 +258,11 @@ I got from Mike at The Geek Pub and for the ~100 GB is takes for a full archive,
 
 ### Container Management
 
-| Service          | Server(s)              | Description |
-| ---------------- | ---------------------- | ----------- |
-| Portainer Server | `big-slice`            | Docker management and web interface |
-| Portainer Agent  | `small-slice-*`, `nas` | Remote connector for additional Docker hosts |
-| Docker Proxy     | all                    | Secure Docker API access |
+| Service                                                          | Server(s)              | Description |
+| ---------------------------------------------------------------- | ---------------------- | ----------- |
+| [Portainer Server](https://www.portainer.io)                     | `big-slice`            | Docker management and web interface |
+| [Portainer Agent](https://www.portainer.io)                      | `small-slice-*`, `nas` | Remote connector for additional Docker hosts |
+| [Docker Proxy](https://github.com/Tecnativa/docker-socket-proxy) | all                    | Secure Docker API access |
 
 While the Docker Compose stacks are not managed by Portainer, it still provides a nice web interface for visibility into
 the state of each server. It also allows me to see into the NAS, where I don't control the OS. Some limited controls are
