@@ -1,5 +1,10 @@
 # Personal Website
 
+[![Hugo](https://img.shields.io/badge/Hugo-FF4088?logo=hugo&logoColor=white)](https://gohugo.io/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?logo=github&logoColor=white)](https://pages.github.com/)
+[![Build and Deploy](https://github.com/benprisby/personal-website/actions/workflows/hugo.yaml/badge.svg)](https://github.com/benprisby/personal-website/actions/workflows/hugo.yaml)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+
 My personal portfolio website built with Hugo, featuring a modern, responsive design with light and dark mode support.
 
 ## 🌐 Live Site
