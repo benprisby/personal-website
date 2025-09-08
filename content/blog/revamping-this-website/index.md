@@ -78,8 +78,8 @@ feel authentic. I wanted to simplify.
 With more software engineering experience under my belt, I was drawn to static site generators. Markdown is
 something I use all the time at work for documentation, so it made sense to lean into it. Furthermore, I liked the idea
 of decoupling the site content from the presentation of it, while being able to easily store it in Git (goodbye manual
-WordPress backups to my NAS). I first experimented with Jekyll but settled on Hugo for its increased popularity and
-speed.
+WordPress backups to my NAS). I first experimented with [Jekyll](https://jekyllrb.com) but settled on
+[Hugo](https://gohugo.io) for its increased popularity and speed.
 
 In just a few minutes, I had a starter site running locally with the excellent
 [Hugo Profile theme](https://github.com/gurusabarish/hugo-profile):
@@ -131,7 +131,7 @@ number of server round trips for assets. The theme modularizes its CSS files by 
 separate in the final deployment. However, I wanted to optimize this so that the client only needs to fetch one file
 that contains all of the required minified CSS.
 
-With Hugo's asset pipeline, this was a relatively straightforward task:
+With Hugo's [asset pipeline](https://gohugo.io/hugo-pipes/), this was a relatively straightforward task:
 
 ```html
 <!-- bundled stylesheets -->
@@ -169,9 +169,9 @@ it locally.
 ### Accessibility Improvements
 
 While this is area I'm still coming up to speed on, making the site more accessible for screen readers is important to
-me. The PageInsights report flagged a few issues with `aria-label` tags that I fixed, but I took the opportunity to also
-clean up `alt` tags on images and add additional `aria-*` tags on certain primary items to ensure they are descriptive.
-There is still much more to do on this front, but the site is in better shape than initially.
+me. The PageSpeed Insights report flagged a few issues with `aria-label` tags that I fixed, but I took the opportunity
+to also clean up `alt` tags on images and add additional `aria-*` tags on certain primary items to ensure they are
+descriptive. There is still much more to do on this front, but the site is in better shape than initially.
 
 ## Conclusion
 
