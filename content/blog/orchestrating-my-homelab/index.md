@@ -8,6 +8,7 @@ tags:
   - homelab
   - ansible
   - docker
+  - automation
 ---
 I recently wrote a [tour of my homelab](/blog/homelab-tour-2025/), where I discussed my current hardware and software
 choices. At the beginning of that post, I outlined some guiding principles for those choices, one of which was:
