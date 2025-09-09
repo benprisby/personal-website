@@ -108,6 +108,8 @@ customized in the [configuration file](hugo.yaml):
   [`9690cc6`](https://github.com/benprisby/personal-website/commit/9690cc6e0c4c65db2c3f32d8ab1a2beed79ad67a)
 - Ensure nav bar separator consumes full height:
   [`650c9be`](https://github.com/benprisby/personal-website/commit/650c9be22462400c877fb23204e934b0b50fcd5e)
+- Extend maximum-displayed post title length:
+  [`e836771`](https://github.com/benprisby/personal-website/commit/e83677132196c47441a4ee8598ab3a6bbe7ae2e0)
 
 ## 🔧 Development Notes
 
