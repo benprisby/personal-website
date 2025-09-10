@@ -110,6 +110,8 @@ customized in the [configuration file](hugo.yaml):
   [`650c9be`](https://github.com/benprisby/personal-website/commit/650c9be22462400c877fb23204e934b0b50fcd5e)
 - Extend maximum-displayed post title length:
   [`e836771`](https://github.com/benprisby/personal-website/commit/e83677132196c47441a4ee8598ab3a6bbe7ae2e0)
+- Maintain blog image aspect ratios on the list page:
+  [`af27f74`](https://github.com/benprisby/personal-website/commit/af27f74ffefed584a0a3c9bda1f9061f73ad255e)
 
 ## 🔧 Development Notes
 
