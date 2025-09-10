@@ -116,6 +116,8 @@ customized in the [configuration file](hugo.yaml):
   [`bc3305b`](https://github.com/benprisby/personal-website/commit/bc3305b4ac4c7aee89eef40495e73dc210826dd7)
 - Overhaul social sharing buttons (networks and styling):
   [`2741032`](https://github.com/benprisby/personal-website/commit/274103225bff308f98cc4eb34e197e9bc1a39bf3)
+- Simplify footer content:
+  [`5a0ecd1`](https://github.com/benprisby/personal-website/commit/5a0ecd17cea94d8086449127190a1696a7957f97)
 
 ## 🔧 Development Notes
 
