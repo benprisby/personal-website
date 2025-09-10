@@ -369,7 +369,7 @@ params:
   terms:
     read: Read
     toc: Table of Contents
-    copyright: All rights reserved
+    copyright: Ben Prisby
     pageNotFound: Page Not Found
     emailText: "I thought you might find this interesting:"
 
