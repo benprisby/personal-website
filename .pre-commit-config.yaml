@@ -1,9 +1,5 @@
 ---
-exclude: |
-  (?x)(
-    ^themes/|
-    ^static/fontawesome-6/.*\.js$
-  )
+exclude: '^themes/'
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
