@@ -112,6 +112,10 @@ customized in the [configuration file](hugo.yaml):
   [`e836771`](https://github.com/benprisby/personal-website/commit/e83677132196c47441a4ee8598ab3a6bbe7ae2e0)
 - Maintain blog image aspect ratios on the list page:
   [`af27f74`](https://github.com/benprisby/personal-website/commit/af27f74ffefed584a0a3c9bda1f9061f73ad255e)
+- Update to Font Awesome 6.7.2:
+  [`bc3305b`](https://github.com/benprisby/personal-website/commit/bc3305b4ac4c7aee89eef40495e73dc210826dd7)
+- Overhaul social sharing buttons (networks and styling):
+  [`2741032`](https://github.com/benprisby/personal-website/commit/274103225bff308f98cc4eb34e197e9bc1a39bf3)
 
 ## 🔧 Development Notes
 
