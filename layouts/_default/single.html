@@ -73,22 +73,42 @@
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink | absURL }}&title={{ .Title | urlquery }}">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
-                    <i class="fab fa-twitter"></i>
+                  <a target="_blank" href="https://bsky.app/intent/compose?text={{ .Title | urlquery }} {{ .Permalink | absURL }}">
+                    <i class="fab fa-bluesky"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text={{ .Title }}: {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
-                    <i class="fab fa-whatsapp"></i>
+                  <a target="_blank" href="https://x.com/share?text={{ .Title | urlquery }}&url={{ .Permalink | absURL }}">
+                    <i class="fab fa-x-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject={{ .Title }}&amp;body={{ .Site.Params.terms.emailText | default "Check out this site" }} {{ .Site.Params.hostName }}{{ .Permalink | absURL }}'>
+                  <a target="_blank" href="https://www.reddit.com/submit?url={{ .Permalink | absURL }}&title={{ .Title | urlquery }}">
+                    <i class="fab fa-reddit"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://pinterest.com/pin/create/button/?url={{ .Permalink | absURL }}&description={{ .Title | urlquery }}">
+                    <i class="fab fa-pinterest"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | absURL }}">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a href="#" onclick="navigator.clipboard.writeText('{{ .Permalink | absURL }}'); this.innerHTML='<i class=&quot;fa fa-check&quot;></i>'; return false;" title="Copy link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject={{ .Title }}&amp;body={{ .Site.Params.terms.emailText | default "Check out this site" }} {{ .Permalink | absURL }}'>
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>

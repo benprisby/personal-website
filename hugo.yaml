@@ -371,7 +371,7 @@ params:
     toc: Table of Contents
     copyright: All rights reserved
     pageNotFound: Page Not Found
-    emailText: Check out this site
+    emailText: "I thought you might find this interesting:"
 
   datesFormat:
     article: Jan 2, 2006

@@ -256,24 +256,85 @@
 #single aside.social .social-content ul {
     margin-bottom: 1em;
     opacity: 0.9;
-}
-
-#single aside.social .social-content ul li a {
-    border: 1px solid var(--primary-color);
-    padding: .7rem;
-    color: var(--text-link-color) !important;
-    border-radius: 10px;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    padding: 0;
 }
 
 #single aside.social .social-content ul li {
-    margin: .7rem .5rem;
-    margin-left: 0;
+    margin: 0;
+    list-style: none;
 }
 
-#single aside.social .social-content ul li:hover a {
-    opacity: .8;
+#single aside.social .social-content ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--text-link-color) !important;
+    font-size: 1rem;
+    min-height: 36px;
+    opacity: 0.7;
+}
+
+/* Platform colors only appear on hover */
+#single aside.social .social-content ul li:nth-child(1) a:hover {
+    background-color: #0077b5; /* LinkedIn */
+    color: #ffffff !important;
+}
+
+#single aside.social .social-content ul li:nth-child(2) a:hover {
+    background-color: #0085ff; /* Bluesky */
+    color: #ffffff !important;
+}
+
+#single aside.social .social-content ul li:nth-child(3) a:hover {
+    background-color: #000000; /* X/Twitter */
+    color: #ffffff !important;
+}
+
+#single aside.social .social-content ul li:nth-child(4) a:hover {
+    background-color: #ff4500; /* Reddit */
+    color: #ffffff !important;
+}
+
+#single aside.social .social-content ul li:nth-child(5) a:hover {
+    background-color: #bd081c; /* Pinterest */
+    color: #ffffff !important;
+}
+
+#single aside.social .social-content ul li:nth-child(6) a:hover {
+    background-color: #1877f2; /* Facebook */
+    color: #ffffff !important;
+}
+
+#single aside.social .social-content ul li:nth-child(7) a:hover {
+    background-color: var(--primary-color); /* Copy Link */
+    color: #ffffff !important;
+}
+
+#single aside.social .social-content ul li:nth-child(8) a:hover {
+    background-color: #6c757d; /* Email */
+    color: #ffffff !important;
+}
+
+/* Subtle hover effects */
+#single aside.social .social-content ul li a:hover {
+    opacity: 1;
+    border: 1px solid transparent;
+}
+
+
+/* Focus for accessibility */
+#single aside.social .social-content ul li a:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
 }
 
 /* Top scroll */
