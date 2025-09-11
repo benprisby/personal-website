@@ -296,6 +296,8 @@ params:
         links:
           - icon: fas fa-newspaper
             url: /blog/homelab-tour-2025/
+          - icon: fas fa-heart-pulse
+            url: https://status.benprisby.com
           - icon: fab fa-github
             url: https://github.com/benprisby/homelab
 
