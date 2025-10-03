@@ -122,7 +122,7 @@ params:
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/benprisby
         - icon: fas fa-envelope
-          url: mailto:ben@benprisby.com
+          url: mailto:ben@prisby.com
 
   about:
     enable: true
@@ -341,7 +341,7 @@ params:
       Interested in discussing technical challenges, new opportunities, or sharing thoughts on music and mixology?
       Feel free to reach out!
     btnName: Email Me
-    btnLink: mailto:ben@benprisby.com
+    btnLink: mailto:ben@prisby.com
 
   footer:
     recentPosts:
@@ -353,7 +353,7 @@ params:
     socialNetworks:
       github: https://github.com/benprisby
       linkedin: https://www.linkedin.com/in/benprisby/
-      email: mailto:ben@benprisby.com
+      email: mailto:ben@prisby.com
 
   listPages:
     disableFeaturedImage: false
