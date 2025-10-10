@@ -132,13 +132,16 @@ params:
       Welcome! I designed this site to showcase both my technical and non-technical sides, which more often than not
       intertwine.
 
-      I've spent the last six years at Desktop Metal building software that powers industrial 3D printers, enabling mass
-      manufacturing of everything from automotive parts to medical devices. What fascinates me most is the challenge of
+      I spent seven years at Desktop Metal building software that powered industrial 3D printers, enabling mass
+      manufacturing of everything from automotive parts to medical devices. What fascinated me most was the challenge of
       making complex systems feel simple and intuitive.
 
-      During my time at DM, my proudest technical achievement is the Maxwell platform: the unified software foundation
-      that lets our small team support an expanding, diverse product portfolio without sacrificing quality (or sanity).
-      I also have a niche for creating embedded user interfaces that make our devices easy to use.
+      My proudest technical achievement from that time is the Maxwell platform: the unified software foundation that let
+      our small team support an expanding, diverse product portfolio without sacrificing quality (or sanity). I also
+      developed a niche for creating embedded user interfaces that make complex devices easy to use.
+
+      Now I'm bringing that expertise to a new challenge as the first software engineer at an early-stage startup, where
+      I'm responsible for architecting and building the entire software platform.
 
       Outside of work, I'm constantly experimenting. My homelab is where I prototype ideas and stay current with
       technologies that pique my interest. I've been playing guitar since I was nine and it continues to be my favorite
@@ -168,11 +171,11 @@ params:
         - job: Software Engineer → Principal Software Engineer
           company: Desktop Metal
           companyUrl: https://www.desktopmetal.com
-          date: Jan 2019 - Present
+          date: Jan 2019 - Oct 2025
           info:
             enable: false
           content: |-
-            **Principal Software Engineer (May 2023 - Present)**
+            **Principal Software Engineer (May 2023 - Oct 2025)**
 
             I lead the development of Maxwell, the unified software platform that serves as the foundation for an
             expanding device portfolio. The platform's modular architecture enables our small team to efficiently scale
