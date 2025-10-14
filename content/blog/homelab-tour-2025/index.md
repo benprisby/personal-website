@@ -9,6 +9,7 @@ tags:
   - docker
   - hardware
   - networking
+  - unifi
   - monitoring
 ---
 For years, I've built and maintained a homelab to serve as a self-hosted infrastructure playground. In addition to
