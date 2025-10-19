@@ -61,7 +61,7 @@ some tasks would only apply to one (e.g. kernel `cmdline.txt` configuration on R
 add functional groups in case these servers expand to do more than just run Docker containers.
 
 For simplicity, I use the same user account name on all servers. As such, the inventory only needs to cover what varies:
-the IP address. The resulting `production` inventory file looks like:
+the IP address. The resulting `hosts.yml` inventory file looks like:
 
 ```yaml
 nuc:
