@@ -69,55 +69,55 @@ contains all modifications I have made to it to suit my needs and address minor 
 customized in the [configuration file](hugo.yaml):
 
 - Changed fonts to JetBrains Mono + Inter with monospace used for all headings and technical elements:
-  [`17f21fa`](https://github.com/benprisby/personal-website/commit/17f21fa5a280352fdd314e4188a999851b4d9757)
+  [`2d7f3fe`](https://github.com/benprisby/personal-website/commit/2d7f3fec8d75c353266e8a14a1b873c56cea303a)
 - Fixed hero section buttons horizontal alignment:
-  [`415c53d`](https://github.com/benprisby/personal-website/commit/415c53d3fddf64eea222e07d2f96ac4791403419)
+  [`b5152c8`](https://github.com/benprisby/personal-website/commit/b5152c86e1c42af9deebf416f0e2b60ebb55fd35)
 - Set background color on `body` element for overscroll:
-  [`56f8037`](https://github.com/benprisby/personal-website/commit/56f8037492f41c016594452874f00ae3c12b43c3)
+  [`7bb8547`](https://github.com/benprisby/personal-website/commit/7bb8547b7cc0a30a044ee187f4961fe3bfa8b4a9)
 - Set high fetch priority for hero image:
-  [`ff13c5a`](https://github.com/benprisby/personal-website/commit/ff13c5a8d486d2cd1940527b6e175f09e552f203)
+  [`6272511`](https://github.com/benprisby/personal-website/commit/62725114804cbece54359af6bccb413ef46bf1ff)
 - Bundled all CSS files into one minified file to reduce server round-trips:
-  [`d31f752`](https://github.com/benprisby/personal-website/commit/d31f7520dedf8b601812384cb4f9920d7c2ee1ac)
+  [`de362f2`](https://github.com/benprisby/personal-website/commit/de362f2ca4b9a0511eff37cb5cafee1d1d8f0d41)
 - Expanded favicon formats and platforms:
-  [`92b3de6`](https://github.com/benprisby/personal-website/commit/92b3de69583e7e91acf17ba7c64ff5aa772dc2b1)
+  [`6eded42`](https://github.com/benprisby/personal-website/commit/6eded42819cbec941c96e39b9a69b297fe91a45f)
 - Fixed `aria-controls` value for experience section items:
-  [`d8ba169`](https://github.com/benprisby/personal-website/commit/d8ba169196605ef9aad36ab57437777a30b00190)
+  [`1bdbc55`](https://github.com/benprisby/personal-website/commit/1bdbc55882f916c6d2d7938b775e2d520adeb5d3)
 - Added/updated `alt` and `aria-label` tags for hero and projects sections:
-  [`6b2cee1`](https://github.com/benprisby/personal-website/commit/6b2cee14017e89a4090cb974ea382baab1ca1d6d)
+  [`4446a02`](https://github.com/benprisby/personal-website/commit/4446a02af7e8a82aa0a9d1fa2f6d33ef0c924d48)
 - Added `_blank` target to footer social links:
-  [`61bc2c7`](https://github.com/benprisby/personal-website/commit/61bc2c7ae3433651a9fbf359afb3550ac1eebb14)
+  [`f60e53f`](https://github.com/benprisby/personal-website/commit/f60e53f184461b442a901ff7a5894eb001c02e72)
 - Added `aria-label` for theme toggle button in nav bar:
-  [`5752957`](https://github.com/benprisby/personal-website/commit/5752957d7b02054055ca837bcf28fd9004ad057b)
+  [`1adb33a`](https://github.com/benprisby/personal-website/commit/1adb33ad045c30b1db8b88800cc6562655592eda)
 - Renamed custom CSS file from `style.css` to `custom.css`:
-  [`9c273b1`](https://github.com/benprisby/personal-website/commit/9c273b18ee9521beaab7fddf5fa807356809d058)
+  [`7c36672`](https://github.com/benprisby/personal-website/commit/7c366720b2835404be52cfa1f9f7ad987c5d7a2f)
 - Fix light/dark mode toggling and avoid occasional white flash when loading:
-  [`b4b4132`](https://github.com/benprisby/personal-website/commit/b4b41327dc2ec2cf1f8971f48db3586ede6909fd)
+  [`26033dd`](https://github.com/benprisby/personal-website/commit/26033dd50309d1fce504a2b2ca34615c31b35c9d)
 - Fix theme toggle button alignment:
-  [`746bf9e`](https://github.com/benprisby/personal-website/commit/746bf9e1e35bfcdd29ab9d2af4bcd355257f5b00)
+  [`44f6a7d`](https://github.com/benprisby/personal-website/commit/44f6a7db60384ef371247b0ac3b89d5b037b83be)
 - Add render hook to open Markdown links in new tabs:
-  [`b766747`](https://github.com/benprisby/personal-website/commit/b7667471e0c40d66869baf156a9c641c4bcc0bd7)
+  [`2b088aa`](https://github.com/benprisby/personal-website/commit/2b088aa215a60a05214e947f7073e0a86d627bc7)
 - "Plainify" blog summaries and reduce length in footer cards:
-  [`81b69da`](https://github.com/benprisby/personal-website/commit/81b69dae19165038c23913aa72a566e479dd91f3)
+  [`35b2457`](https://github.com/benprisby/personal-website/commit/35b24575e64b9d7adb04c627b1a6e599d3e1a86d)
 - Add typewriter effect to hero subtitle:
-  [`7588668`](https://github.com/benprisby/personal-website/commit/758866856647a67edd72165bb1fc4f32abfc7deb)
+  [`9bfdecb`](https://github.com/benprisby/personal-website/commit/9bfdecbb7e38c7883a82538370e1a8996a25049a)
 - Fix and improve search functionality:
-  [`4d5fb7c`](https://github.com/benprisby/personal-website/commit/4d5fb7ce7a9de1415d85047c31c55d012686b563)
+  [`87c6d9a`](https://github.com/benprisby/personal-website/commit/87c6d9a53bebb4771b5884aa54964328eabe1975)
 - Clear search context when clicking a result:
-  [`f5c90f1`](https://github.com/benprisby/personal-website/commit/f5c90f19857363ea63a778ae334d750a11883c97)
+  [`b9466b8`](https://github.com/benprisby/personal-website/commit/b9466b88e18ffc6cdf7d3472d04078a61fab3a21)
 - Fix nav item vertical centering on wider screens:
-  [`9690cc6`](https://github.com/benprisby/personal-website/commit/9690cc6e0c4c65db2c3f32d8ab1a2beed79ad67a)
+  [`3bf2a91`](https://github.com/benprisby/personal-website/commit/3bf2a91be2fa896565e9f7e673226a0056a0fd8f)
 - Ensure nav bar separator consumes full height:
-  [`650c9be`](https://github.com/benprisby/personal-website/commit/650c9be22462400c877fb23204e934b0b50fcd5e)
+  [`334a9c2`](https://github.com/benprisby/personal-website/commit/334a9c2acc0ea0d8917aaa2e78acb9235401c9e3)
 - Extend maximum-displayed post title length:
-  [`e836771`](https://github.com/benprisby/personal-website/commit/e83677132196c47441a4ee8598ab3a6bbe7ae2e0)
+  [`e4aec3d`](https://github.com/benprisby/personal-website/commit/e4aec3de73fa359ec0d0972b6f2efac080cc4c82)
 - Maintain blog image aspect ratios on the list page:
-  [`af27f74`](https://github.com/benprisby/personal-website/commit/af27f74ffefed584a0a3c9bda1f9061f73ad255e)
+  [`a4455b7`](https://github.com/benprisby/personal-website/commit/a4455b75155dea16e852747408c329b7a5376f89)
 - Update to Font Awesome 6.7.2:
-  [`bc3305b`](https://github.com/benprisby/personal-website/commit/bc3305b4ac4c7aee89eef40495e73dc210826dd7)
+  [`fe275ca`](https://github.com/benprisby/personal-website/commit/fe275ca13a5411b03917c3295e78bd6eaeacb4fb)
 - Overhaul social sharing buttons (networks and styling):
-  [`2741032`](https://github.com/benprisby/personal-website/commit/274103225bff308f98cc4eb34e197e9bc1a39bf3)
+  [`7be3283`](https://github.com/benprisby/personal-website/commit/7be3283d53c8c0cc0733f16435eb497c50acbb27)
 - Simplify footer content:
-  [`5a0ecd1`](https://github.com/benprisby/personal-website/commit/5a0ecd17cea94d8086449127190a1696a7957f97)
+  [`4cecc8d`](https://github.com/benprisby/personal-website/commit/4cecc8d11364a0e189c12b37ed74f7efdfafe0f8)
 
 ## 🔧 Development Notes
 
