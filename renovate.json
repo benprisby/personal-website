@@ -2,5 +2,35 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Update Hugo version in workflow",
+      "fileMatch": ["^\\.github/workflows/hugo\\.yaml$"],
+      "matchStrings": [
+        "HUGO_VERSION:\\s*(?<currentValue>.*?)\\s"
+      ],
+      "datasourceTemplate": "github-releases",
+      "packageNameTemplate": "gohugoio/hugo",
+      "extractVersionTemplate": "^v(?<version>.*)$"
+    },
+    {
+      "customType": "regex",
+      "description": "Update Minify version in workflow",
+      "fileMatch": ["^\\.github/workflows/hugo\\.yaml$"],
+      "matchStrings": [
+        "MINIFY_VERSION:\\s*(?<currentValue>.*?)\\s"
+      ],
+      "datasourceTemplate": "github-releases",
+      "packageNameTemplate": "tdewolff/minify",
+      "extractVersionTemplate": "^v(?<version>.*)$"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchManagers": ["cdnurl"],
+      "enabled": false
+    }
   ]
 }
