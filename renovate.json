@@ -34,7 +34,7 @@
   "packageRules": [
     {
       "matchManagers": [
-        "cdnurl"
+        "html"
       ],
       "enabled": false
     }
