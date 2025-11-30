@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.151.0
-      MINIFY_VERSION: 2.24.3
+      MINIFY_VERSION: 2.24.7
     steps:
       - name: Install Hugo CLI
         run: |
