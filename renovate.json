@@ -7,7 +7,9 @@
     {
       "customType": "regex",
       "description": "Update Hugo version in workflow",
-      "fileMatch": ["^\\.github/workflows/hugo\\.yaml$"],
+      "managerFilePatterns": [
+        "/^\\.github/workflows/hugo\\.yaml$/"
+      ],
       "matchStrings": [
         "HUGO_VERSION:\\s*(?<currentValue>.*?)\\s"
       ],
@@ -18,7 +20,9 @@
     {
       "customType": "regex",
       "description": "Update Minify version in workflow",
-      "fileMatch": ["^\\.github/workflows/hugo\\.yaml$"],
+      "managerFilePatterns": [
+        "/^\\.github/workflows/hugo\\.yaml$/"
+      ],
       "matchStrings": [
         "MINIFY_VERSION:\\s*(?<currentValue>.*?)\\s"
       ],
@@ -29,7 +33,9 @@
   ],
   "packageRules": [
     {
-      "matchManagers": ["cdnurl"],
+      "matchManagers": [
+        "cdnurl"
+      ],
       "enabled": false
     }
   ]
