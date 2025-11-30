@@ -39,7 +39,7 @@ jobs:
           tar -xf minify.tar.gz -C /usr/local/bin minify
           rm minify.tar.gz
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: recursive
       - name: Setup Pages
