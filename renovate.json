@@ -3,6 +3,9 @@
   "extends": [
     "config:recommended"
   ],
+  "assignees": [
+    "benprisby"
+  ],
   "customManagers": [
     {
       "customType": "regex",
