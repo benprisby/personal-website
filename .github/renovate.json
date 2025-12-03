@@ -3,9 +3,6 @@
   "extends": [
     "config:recommended"
   ],
-  "assignees": [
-    "benprisby"
-  ],
   "git-submodules": {
     "enabled": true
   },
