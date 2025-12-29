@@ -1,0 +1,49 @@
+<div class="text-center pt-2">
+    {{ if .Site.Params.footer.socialNetworks.github }}
+    <span class="px-1">
+        <a href="{{ .Site.Params.footer.socialNetworks.github }}" target="_blank" aria-label="github">
+            <i class="fab fa-github fa-xl"></i>
+        </a>
+    </span>
+    {{ end }}
+
+    {{ if .Site.Params.footer.socialNetworks.linkedin }}
+    <span class="px-1">
+        <a href="{{ .Site.Params.footer.socialNetworks.linkedin }}" target="_blank" aria-label="linkedin">
+            <i class="fab fa-linkedin fa-xl"></i>
+        </a>
+    </span>
+    {{ end }}
+
+    {{ if .Site.Params.footer.socialNetworks.twitter }}
+    <span class="px-1">
+        <a href="{{ .Site.Params.footer.socialNetworks.twitter }}" target="_blank" aria-label="twitter">
+            <i class="fab fa-twitter fa-xl"></i>
+        </a>
+    </span>
+    {{ end }}
+
+    {{ if .Site.Params.footer.socialNetworks.instagram }}
+    <span class="px-1">
+        <a href="{{ .Site.Params.footer.socialNetworks.instagram }}" target="_blank" aria-label="instagram">
+            <i class="fab fa-instagram fa-xl"></i>
+        </a>
+    </span>
+    {{ end }}
+
+    {{ if .Site.Params.footer.socialNetworks.facebook }}
+    <span class="px-1">
+        <a href="{{ .Site.Params.footer.socialNetworks.facebook }}" target="_blank" aria-label="facebook">
+            <i class="fab fa-facebook fa-xl"></i>
+        </a>
+    </span>
+    {{ end }}
+
+    {{ if .Site.Params.footer.socialNetworks.email }}
+    <span class="px-1">
+        <a href="{{ .Site.Params.footer.socialNetworks.email }}" target="_blank" aria-label="email">
+            <i class="fas fa-envelope fa-xl"></i>
+        </a>
+    </span>
+    {{ end }}
+</div>
