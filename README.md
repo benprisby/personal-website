@@ -116,6 +116,10 @@ customized in the [configuration file](hugo.yaml):
   [`7be3283`](https://github.com/benprisby/personal-website/commit/7be3283d53c8c0cc0733f16435eb497c50acbb27)
 - Simplify footer content:
   [`4cecc8d`](https://github.com/benprisby/personal-website/commit/4cecc8d11364a0e189c12b37ed74f7efdfafe0f8)
+- Switch to FontAwesome footer icons:
+  [`c25374d`](https://github.com/benprisby/personal-website/commit/c25374d796a061768e5bf26bb84fdb2c4007e068)
+- Add Apple Music and Spotify footer icon support:
+  [`9b42f4c`](https://github.com/benprisby/personal-website/commit/9b42f4cf85127d6c7e8d789a2912ca3ebfdac6c0)
 
 ## 🔧 Development Notes
 
