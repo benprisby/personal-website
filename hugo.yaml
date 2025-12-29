@@ -355,6 +355,8 @@ params:
     socialNetworks:
       github: https://github.com/benprisby
       linkedin: https://www.linkedin.com/in/benprisby/
+      appleMusic: https://music.apple.com/profile/bpris
+      spotify: https://open.spotify.com/user/ppop9ehch109slq5y3wzdqvhr
       email: mailto:ben@prisby.com
 
   listPages:

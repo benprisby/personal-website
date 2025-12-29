@@ -39,6 +39,22 @@
     </span>
     {{ end }}
 
+    {{ if .Site.Params.footer.socialNetworks.appleMusic }}
+    <span class="px-1">
+        <a href="{{ .Site.Params.footer.socialNetworks.appleMusic }}" target="_blank" aria-label="apple-music">
+            <i class="fab fa-itunes fa-xl"></i>
+        </a>
+    </span>
+    {{ end }}
+
+    {{ if .Site.Params.footer.socialNetworks.spotify }}
+    <span class="px-1">
+        <a href="{{ .Site.Params.footer.socialNetworks.spotify }}" target="_blank" aria-label="spotify">
+            <i class="fab fa-spotify fa-xl"></i>
+        </a>
+    </span>
+    {{ end }}
+
     {{ if .Site.Params.footer.socialNetworks.email }}
     <span class="px-1">
         <a href="{{ .Site.Params.footer.socialNetworks.email }}" target="_blank" aria-label="email">
