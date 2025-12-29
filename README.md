@@ -84,8 +84,6 @@ customized in the [configuration file](hugo.yaml):
   [`1bdbc55`](https://github.com/benprisby/personal-website/commit/1bdbc55882f916c6d2d7938b775e2d520adeb5d3)
 - Added/updated `alt` and `aria-label` tags for hero and projects sections:
   [`4446a02`](https://github.com/benprisby/personal-website/commit/4446a02af7e8a82aa0a9d1fa2f6d33ef0c924d48)
-- Added `_blank` target to footer social links:
-  [`f60e53f`](https://github.com/benprisby/personal-website/commit/f60e53f184461b442a901ff7a5894eb001c02e72)
 - Added `aria-label` for theme toggle button in nav bar:
   [`1adb33a`](https://github.com/benprisby/personal-website/commit/1adb33ad045c30b1db8b88800cc6562655592eda)
 - Renamed custom CSS file from `style.css` to `custom.css`:
