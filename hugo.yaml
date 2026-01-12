@@ -168,71 +168,62 @@ params:
   experience:
     enable: true
     items:
-      - job: Software Engineer → Principal Software Engineer
-        company: Desktop Metal
+      - company: Desktop Metal
         companyUrl: https://www.desktopmetal.com
-        date: Jan 2019 - Oct 2025
-        info:
-          enable: false
-        content: |-
-          **Principal Software Engineer (May 2023 - Oct 2025)**
+        jobs:
+          - name: Principal Software Engineer
+            date: May 2023 - Oct 2025
+            info:
+              enable: false
+            content: |-
+              I led the development of Maxwell, the unified software platform that served as the foundation for an
+              expanding device portfolio. The platform's modular architecture enabled our small team to efficiently
+              scale across multiple product lines through service-oriented design. I served as the primary technical
+              advisor for device software strategy, leading cross-functional architecture decisions and mentoring the
+              team.
+          - name: Senior Software Engineer
+            date: Mar 2021 - May 2023
+            info:
+              enable: false
+            content: |-
+              This role marked my transition into device software architecture leadership. A key achievement was
+              developing Remote Assist, a comprehensive support system that enabled remote troubleshooting capabilities,
+              significantly reducing on-site service requirements and improving customer support efficiency. I expanded
+              my technical scope across the full stack, implementing Qt-based user interfaces, Python backend services,
+              and CI/CD pipeline improvements while collaborating with hardware, design, and support teams.
+          - name: Embedded Software Engineer
+            date: Jan 2019 - Mar 2021
+            info:
+              enable: false
+            content: |-
+              Beginning my full-time career, I specialized in Qt application development and embedded Linux systems. I
+              was entrusted with customer-facing interface design decisions, which developed my understanding of user
+              experience considerations for high-value industrial equipment. During this period, I contributed to the
+              architectural evolution from monolithic to modular system design, establishing foundational patterns that
+              would later influence the Maxwell platform development.
+          - name: Embedded Software Co-op
+            date: Jul 2018 - Jan 2019
+            info:
+              enable: false
+            content: |-
+              This experience provided my first exposure to industrial 3D printing technology and established the
+              foundation for my subsequent full-time roles at Desktop Metal by completing my second Northeastern co-op
+              there. I began by revamping firmware QA test suites and quickly progressed to implementing and maintaining
+              new code in Studio technician tools. I also gained lower-level firmware development skills in an extensive
+              toolchain migration.
 
-          I led the development of Maxwell, the unified software platform that served as the foundation for an
-          expanding device portfolio. The platform's modular architecture enabled our small team to efficiently scale
-          across multiple product lines through service-oriented design. I served as the primary technical advisor for
-          device software strategy, leading cross-functional architecture decisions and mentoring the team.
-
-          **Senior Software Engineer (Mar 2021 - May 2023)**
-
-          This role marked my transition into device software architecture leadership. A key achievement was
-          developing Remote Assist, a comprehensive support system that enabled remote troubleshooting capabilities,
-          significantly reducing on-site service requirements and improving customer support efficiency. I expanded my
-          technical scope across the full stack, implementing Qt-based user interfaces, Python backend services, and
-          CI/CD pipeline improvements while collaborating with hardware, design, and support teams.
-
-          **Embedded Software Engineer (Jan 2019 - Mar 2021)**
-
-          Beginning my full-time career, I specialized in Qt application development and embedded Linux systems. I was
-          entrusted with customer-facing interface design decisions, which developed my understanding of user
-          experience considerations for high-value industrial equipment. During this period, I contributed to the
-          architectural evolution from monolithic to modular system design, establishing foundational patterns that
-          would later influence the Maxwell platform development.
-
-      - job: Embedded Software Co-op
-        company: Desktop Metal Co-op
-        companyUrl: https://www.desktopmetal.com
-        date: Jul 2018 - Jan 2019
-        info:
-          enable: false
-        content: |-
-          *Designed and implemented Studio Printer support systems while also overhauling firmware and QA*
-
-          This experience provided my first exposure to industrial 3D printing technology and established the
-          foundation for my subsequent full-time roles at Desktop Metal by completing my second Northeastern co-op
-          there. I began by revamping firmware QA test suites and quickly progressed to implementing and maintaining
-          new code in Studio technician tools. I also gained lower-level firmware development skills in an extensive
-          toolchain migration.
-
-          As I completed my bachelor's degree and this co-op, I gained more valuable software engineering experience
-          in a fast-paced startup, picking up many technical and leadership skills as I prepared for full-time.
-
-      - job: Software Engineering Co-op
-        company: NxStage Medical
+      - company: NxStage Medical
         companyUrl: https://www.nxstage.com
-        date: Jul 2017 - Jan 2018
-        info:
-          enable: false
-        content: |-
-          *Developed embedded medical device software for home hemodialysis systems through full development
-          lifecycle*
-
-          In my first full-time software engineering role as part of the Northeastern co-op program, I learned
-          foundations of sound software design, development practices, and tooling. It further emphasized the
-          importance of reliability and safety in life-critical software design, where system failures are not
-          acceptable.
-
-          This experience opened my eyes to real-world embedded software engineering and validated my career path as I
-          continued earning my bachelor's degree.
+        jobs:
+          - name: Software Engineering Co-op
+            date: Jul 2017 - Jan 2018
+            info:
+              enable: false
+            content: |-
+              In my first full-time software engineering role as part of the Northeastern co-op program, I learned
+              foundations of sound software design, development practices, and tooling. It further emphasized the
+              importance of reliability and safety in life-critical software design, where system failures are not
+              acceptable.
 
   education:
     enable: true
