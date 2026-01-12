@@ -250,18 +250,6 @@ params:
           Focused on embedded systems, software engineering, and computer architecture through both coursework and co-op
           experiences.
 
-      - title: High School Diploma
-        school:
-          name: Central Catholic High School
-          url: https://www.centralcatholic.net
-        date: 2011 - 2015
-        GPA: 3.96/4.0
-        content: |-
-          Academic Scholar (highest GPA in class, senior year), National Honor Society member.
-
-          Founded Technology Club and participated in SEMI High Tech University STEM program. Lead guitarist in Jazz
-          Band and Liturgical Band.
-
   projects:
     enable: true
     items:
