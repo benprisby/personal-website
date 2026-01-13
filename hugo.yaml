@@ -129,29 +129,19 @@ params:
     title: About Me
     image: images/about.jpg
     content: |-
-      Welcome! I designed this site to showcase both my technical and non-technical sides, which more often than not
-      intertwine.
-
-      I spent seven years at Desktop Metal building software that powered industrial 3D printers, enabling mass
-      manufacturing of everything from automotive parts to medical devices. What fascinated me most was the challenge of
-      making complex systems feel simple and intuitive.
-
-      My proudest technical achievement from that time is the Maxwell platform: the unified software foundation that let
-      our small team support an expanding, diverse product portfolio without sacrificing quality (or sanity). I also
-      developed a niche for creating refined embedded user interfaces.
-
-      Now I'm bringing that expertise to a new challenge as the first software engineer at an early-stage startup, where
-      I'm responsible for architecting and building the entire software platform.
+      I'm a software engineer focused on embedded systems and device platforms. I spent seven years at Desktop Metal
+      building software for industrial 3D printers. My proudest achievement was Maxwell, the unified platform that let
+      our small team support an expanding product portfolio. Now, I'm employee #1 at an early-stage startup building the
+      full software stack.
 
       Outside of work, I'm constantly experimenting. My homelab is where I prototype ideas and stay current with
-      technologies that pique my interest. I've been playing guitar since I was nine and it continues to be my favorite
-      creative outlet, where I explore patterns and emotions through songwriting. And I've developed a passion for
-      mixology; there's something deeply satisfying about balancing flavors and perfecting techniques. When I'm not
-      crafting cocktails or diving into code, my wife and I are usually training our puppy Luna.
+      technologies that pique my interest. Guitar has been my creative outlet since I was nine, where I explore
+      patterns and emotions through songwriting. I've also developed a passion for mixology; there's something deeply
+      satisfying about balancing flavors and refining techniques. When I'm not doing any of the above, my wife and I
+      are usually training our puppy Luna.
 
-      Whether I'm architecting software, crafting a cocktail, or working out a chord progression, I'm drawn to the
-      intersection of technical precision and creative expression. The best solutions often come from understanding both
-      the system and the human experience within it.
+      I'm drawn to the intersection of technical precision and creative expression. The best solutions often come from
+      understanding both the system and the human experience within it.
     skills:
       enable: true
       title: "Technologies I work with:"
