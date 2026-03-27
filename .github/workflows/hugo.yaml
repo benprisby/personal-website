@@ -24,7 +24,7 @@ jobs:
     name: Build Site
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.158.0
+      HUGO_VERSION: 0.159.1
       MINIFY_VERSION: 2.24.11
     steps:
       - name: Install Hugo CLI
