@@ -124,12 +124,12 @@ customized in the [configuration file](hugo.yaml):
   [`31536bc`](https://github.com/benprisby/personal-website/commit/31536bc1af2b4c998686ae41d1b48d6a4baadc49)
 - Replace About section image circle with rounded corners:
   [`ecf1b81`](https://github.com/benprisby/personal-website/commit/ecf1b81c7704a38b18e318d206a1e6b70a9b08db)
-- Tighten spacing around About section heading on narrow screens:
-  [`f6d5b9d`](https://github.com/benprisby/personal-website/commit/f6d5b9decc2ef9ab4e38a86aba9b9da45a49b854)
 - Fit Experience section tabs on one row on narrow screens:
   [`13f4aa9`](https://github.com/benprisby/personal-website/commit/13f4aa90746afa7717ccdd65c28946e45a29f39d)
 - Refine Experience section job layout on narrow screens:
   [`874444d`](https://github.com/benprisby/personal-website/commit/874444d1ae4c275accda808dbb3f9b970343ceab)
+- Match About section spacing to the other sections on mobile:
+  [`c3c2a7c`](https://github.com/benprisby/personal-website/commit/c3c2a7c15921ffea6d57f21f4304dbd54aa5e2ac)
 
 ## 🔧 Development Notes
 
