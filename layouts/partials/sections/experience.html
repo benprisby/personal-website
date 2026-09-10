@@ -11,7 +11,7 @@
                             {{ if .jobs }}
                                 {{ $firstJobDate = (index .jobs 0).date }}
                             {{ end }}
-                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                            <li class="nav-item px-0 px-lg-1 bg-transparent" role="presentation">
                                 <div
                                     class="nav-link {{ if (eq $index 0) }}active{{ end }} bg-transparent"
                                     aria-selected="true"

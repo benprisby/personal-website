@@ -204,3 +204,34 @@ figcaption p {
     border-radius: 1rem;
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Experience section below the lg breakpoint, where the layout stacks and the
+   experience column is at its narrowest (col-md-8 in the 768-991 band). */
+
+@media all and (max-width: 991.98px) {
+    /* Keep the company tabs on a single row. Where an even split would squeeze the
+       longest label below a readable size, they fall back to natural widths. */
+    #experience #pills-tab {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 0.5rem;
+    }
+
+    #experience .nav-item .nav-link {
+        padding: 0.5rem 0.25rem;
+        font-size: clamp(0.62rem, 2.8vw, 0.9rem);
+        white-space: nowrap;
+        text-align: center;
+    }
+}
+
+/* Give each company an equal share of the row so the active underlines match.
+   Below 360px "Puzzle Electronics" no longer fits an even third at a readable
+   size, so those viewports keep the natural-width fallback above. */
+@media all and (min-width: 360px) and (max-width: 991.98px) {
+    #experience .nav-item {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
