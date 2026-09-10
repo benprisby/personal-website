@@ -120,6 +120,16 @@ customized in the [configuration file](hugo.yaml):
   [`c25374d`](https://github.com/benprisby/personal-website/commit/c25374d796a061768e5bf26bb84fdb2c4007e068)
 - Add Apple Music and Spotify footer icon support:
   [`9b42f4c`](https://github.com/benprisby/personal-website/commit/9b42f4cf85127d6c7e8d789a2912ca3ebfdac6c0)
+- Show About section image on mobile:
+  [`31536bc`](https://github.com/benprisby/personal-website/commit/31536bc1af2b4c998686ae41d1b48d6a4baadc49)
+- Replace About section image circle with rounded corners:
+  [`ecf1b81`](https://github.com/benprisby/personal-website/commit/ecf1b81c7704a38b18e318d206a1e6b70a9b08db)
+- Tighten spacing around About section heading on narrow screens:
+  [`f6d5b9d`](https://github.com/benprisby/personal-website/commit/f6d5b9decc2ef9ab4e38a86aba9b9da45a49b854)
+- Fit Experience section tabs on one row on narrow screens:
+  [`13f4aa9`](https://github.com/benprisby/personal-website/commit/13f4aa90746afa7717ccdd65c28946e45a29f39d)
+- Refine Experience section job layout on narrow screens:
+  [`874444d`](https://github.com/benprisby/personal-website/commit/874444d1ae4c275accda808dbb3f9b970343ceab)
 
 ## 🔧 Development Notes
 
