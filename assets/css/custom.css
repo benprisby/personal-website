@@ -223,6 +223,16 @@ figcaption p {
         white-space: nowrap;
         text-align: center;
     }
+
+    /* Bullets sat 52px in: the browser default ul padding plus the theme's own
+       20px on each marker. Align them with the paragraphs instead. */
+    #experience .experience-container .tab-content .tab-pane ul {
+        padding-left: 0;
+    }
+
+    #experience .experience-container .tab-content .tab-pane ul li {
+        padding-left: 1rem;
+    }
 }
 
 /* Give each company an equal share of the row so the active underlines match.
