@@ -131,8 +131,8 @@ params:
     content: |-
       I'm a software engineer focused on embedded systems and device platforms. I spent seven years at Desktop Metal
       building software for industrial 3D printers. My proudest achievement was Maxwell, the unified platform that let
-      our small team support an expanding product portfolio. Now, I'm employee #1 at an early-stage startup building the
-      full software stack.
+      our small team support an expanding product portfolio. Now, I'm the first software engineer at Puzzle Electronics,
+      building a development-to-production platform for machine controls.
 
       Outside of work, I'm constantly experimenting. My homelab is where I prototype ideas and stay current with
       technologies that pique my interest. Guitar has been my creative outlet since I was nine, where I explore
@@ -149,7 +149,7 @@ params:
         - C++ & Qt QML
         - Python & Flask
         - Embedded Linux & Yocto
-        - WebAssembly & Modern Web
+        - React & Modern Web
         - Docker & Orchestration
         - MQTT & IoT Protocols
         - AWS & Cloud Infrastructure
@@ -158,6 +158,19 @@ params:
   experience:
     enable: true
     items:
+      - company: Puzzle Electronics
+        companyUrl: https://puzzleelectronics.com
+        jobs:
+          - name: Principal Software Engineer
+            date: Oct 2025 - Present
+            info:
+              enable: false
+            content: |
+              Building the software platform taking machine controls from prototype to production as the company's first
+              software engineer.
+              - Designing a scalable software foundation across embedded Linux, backend services, and web interfaces
+              - Establishing architecture patterns and standards alongside the founding team
+
       - company: Desktop Metal
         companyUrl: https://www.desktopmetal.com
         jobs:
