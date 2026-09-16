@@ -28,7 +28,6 @@ This website showcases my professional experience, projects, and personal intere
 
 - Git
 - [Hugo](https://gohugo.io/installation/)
-- [Minify](https://github.com/tdewolff/minify) (optional)
 - [pre-commit](https://pre-commit.com) (development only)
 
 ### Local Development
@@ -42,12 +41,10 @@ This website showcases my professional experience, projects, and personal intere
 ### Building for Production
 
 ```bash
-hugo --minify
-minify -i -r public/  # Optional
+hugo --minify --gc
 ```
 
-The built site will be in the *public* directory. The additional `minify` step ensures that all possible assets are
-minified in-place beyond what Hugo handles to get the most compact output possible.
+The built site will be in the *public* directory.
 
 ## 📦 Deployment
 

@@ -19,19 +19,6 @@
       "datasourceTemplate": "github-releases",
       "packageNameTemplate": "gohugoio/hugo",
       "extractVersionTemplate": "^v(?<version>.*)$"
-    },
-    {
-      "customType": "regex",
-      "description": "Update Minify version in workflow",
-      "managerFilePatterns": [
-        "/^\\.github/workflows/hugo\\.yaml$/"
-      ],
-      "matchStrings": [
-        "MINIFY_VERSION:\\s*(?<currentValue>.*?)\\s"
-      ],
-      "datasourceTemplate": "github-releases",
-      "packageNameTemplate": "tdewolff/minify",
-      "extractVersionTemplate": "^v(?<version>.*)$"
     }
   ],
   "packageRules": [
