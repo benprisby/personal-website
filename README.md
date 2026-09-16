@@ -2,7 +2,7 @@
 
 [![Hugo](https://img.shields.io/badge/Hugo-FF4088?logo=hugo&logoColor=white)](https://gohugo.io/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?logo=github&logoColor=white)](https://pages.github.com/)
-[![Build and Deploy](https://github.com/benprisby/personal-website/actions/workflows/hugo.yaml/badge.svg)](https://github.com/benprisby/personal-website/actions/workflows/hugo.yaml)
+[![Build and Deploy](https://github.com/benprisby/personal-website/actions/workflows/build.yml/badge.svg)](https://github.com/benprisby/personal-website/actions/workflows/build.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/benprisby/personal-website/main.svg)](https://results.pre-commit.ci/latest/github/benprisby/personal-website/main)
 
 My personal portfolio website built with Hugo, featuring a modern, responsive design with light and dark mode support.
@@ -48,7 +48,7 @@ The built site will be in the *public* directory.
 
 ## 📦 Deployment
 
-This site is built using a [GitHub Actions workflow](.github/workflows/hugo.yaml) invoked on push to `main` that:
+This site is built using a [GitHub Actions workflow](.github/workflows/build.yml) invoked on push to `main` that:
 
 1. Sets up a build environment on an Ubuntu runner
 2. Runs Hugo to generate the static site content
