@@ -305,6 +305,23 @@ params:
           - icon: fab fa-github
             url: https://github.com/benprisby/wedding-website
 
+      - title: Reidify Website
+        content: |-
+          Lightweight brand website for a growing gaming YouTube channel. Built with Hugo as a static site with
+          from-scratch theming, fun color palettes, and live video feed. Focused on keeping the site simple and clean to
+          help establish brand presence with audiences.
+        image: images/reidify.jpg
+        badges:
+          - Hugo
+          - HTML/CSS
+          - Web Scraping
+          - Visual Branding
+        links:
+          - icon: fas fa-external-link-alt
+            url: "https://reidify.tv"
+          - icon: fab fa-github
+            url: https://github.com/benprisby/reidify-website
+
   contact:
     enable: true
     title: Contact
